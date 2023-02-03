@@ -1,2 +1,2 @@
-# teamteenteen
-team cua may nhoc hoc python
+# teamteentee
+Team của Bảo Châu và Minh Châu làm dự án webapp với python.
