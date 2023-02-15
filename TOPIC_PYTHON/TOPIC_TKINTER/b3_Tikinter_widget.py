@@ -11,6 +11,7 @@ root = tk.Tk()
 tk.Label(root, text='Classic Label').pack()
 ttk.Label(root, text='Themed Label').pack()
 
+
 #Cuối cùng, gọi phương thức mainloop() để chương trình chạy và hiển thị cửa sổ.
 root.mainloop()
 
