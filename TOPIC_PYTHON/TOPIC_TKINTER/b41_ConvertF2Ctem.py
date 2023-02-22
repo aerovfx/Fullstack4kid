@@ -46,10 +46,13 @@ def convertF2C_button_clicked():
     except ValueError as error:
         showerror(title='Error', message=error)
 
-
+#tạo giao diện chuyển đổi độ F sang độ C
 convert_button = ttk.Button(frame, text='Chuyển đổi')
 convert_button.grid(column=2, row=0, sticky='W', **options)
 convert_button.configure(command=convertF2C_button_clicked)
+
+
+
 
 # result label
 result_label = ttk.Label(frame)
