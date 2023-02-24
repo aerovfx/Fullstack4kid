@@ -5,38 +5,37 @@ from tkinter import ttk
 #Tạo một đối tượng root là cửa sổ chính (main window) của chương trình.
 root = tk.Tk()
 
-#tạo một nhãn văn bản thông thường (classic label) bằng lệnh tk.label(root, text='classic label') và đặt nó vào cửa sổ root bằng phương thức pack(). Tạo một nhãn văn bản được thiết kế (themed label) bằng lệnh ttk.label(root, text='theemed label') và đặt nó vào cửa sổ root bằng phương thức pack().
+#Tạo một nhãn văn bản thông thường (classic label) bằng lệnh tk.Label(root, text='Classic Label') và đặt nó vào cửa sổ root bằng phương thức pack(). Tạo một nhãn văn bản được thiết kế (themed label) bằng lệnh ttk.Label(root, text='Themed Label') và đặt nó vào cửa sổ root bằng phương thức pack().
 
 
-tk.label(root, text='classic label').pack()
-ttk.label(root, text='themed label').pack()
+tk.Label(root, text='Classic Label').pack()
+ttk.Label(root, text='Themed Label').pack()
 
-
-# cuối cùng, gọi phương thức mainloop() để chương trình chạy và hiển thị cửa sổ.
+#Cuối cùng, gọi phương thức mainloop() để chương trình chạy và hiển thị cửa sổ.
 root.mainloop()
 
 '''
-những ttk widgets khác thường được dùng
-tkinter.ttk
+Những ttk widgets khác thường được dùng.
+Tkinter.ttk
 
-button
-checkbutton
-entry
-frame
-label
-labelframe
-menubutton
-panewindow
-radiobutton
-scale
-scrollbar
-spinbox
-and the following widgets are new and specific to ttk:
+Button
+Checkbutton
+Entry
+Frame
+Label
+LabelFrame
+Menubutton
+PanedWindow
+Radiobutton
+Scale
+Scrollbar
+Spinbox
+And the following widgets are new and specific to ttk:
 
-combobox
-notebook
-progressbar
-separator
-sizegrid
-treeview
+Combobox
+Notebook
+Progressbar
+Separator
+Sizegrip
+Treeview
 '''
