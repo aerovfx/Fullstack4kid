@@ -1,9 +1,24 @@
+'''
+tkinter: Thư viện giao diện người dùng của Python, hỗ trợ tạo ra các thành phần giao diện như cửa sổ, nút bấm, hộp văn bản, v.v.
+ttk: Thư viện được xây dựng trên cơ sở của tkinter, cung cấp các widget giao diện người dùng trông hiện đại hơn so với tkinter.
+showerror: Hàm dùng để hiển thị thông báo lỗi.
+Thread: Thư viện dùng để tạo luồng (thread) trong Python, giúp xử lý các tác vụ đồng thời.
+'''
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showerror
 from threading import Thread
 import requests
+#pip install requests, cài module này trước khi chạy chương trình nhé.
 
+'''AsyncDownload kế thừa từ lớp Thread.
+Phương thức khởi tạo (__init__) của AsyncDownload 
+chấp nhận một tham số url là đường dẫn của trang web cần tải về. 
+Trong phương thức khởi tạo, biến html được thiết lập là None, và biến url được gán bằng giá trị url.
+Phương thức run sẽ được thực thi khi AsyncDownload được khởi động bằng phương thức start. 
+Trong phương thức này, trang web được tải về bằng thư viện requests, sau đó nội dung của trang được gán cho biến html
+'''
 
 class AsyncDownload(Thread):
     def __init__(self, url):
@@ -17,6 +32,11 @@ class AsyncDownload(Thread):
         self.html = response.text
 
 
+
+'''App kế thừa từ tk.Tk, là lớp cơ sở của thư viện tkinter.
+Phương thức khởi tạo của App thiết lập các thuộc tính của cửa sổ chương trình 
+(title, geometry, resizable), sau đó gọi các phương thức create_header_frame, create_body_frame, và create_footer_frame 
+'''
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
