@@ -1,7 +1,7 @@
-#Radio Button - learn how to use radio buttons to allow users to select one of a number of mutually exclusive choices.
+#Combobox - walk you through the steps of creating a combobox widget.
 import tkinter as tk
 from tkinter import ttk
-from tkinter .messagebox import showinfo
+from tkinter.messagebox import showinfo
 
 # root window
 root = tk.Tk()
@@ -19,11 +19,11 @@ def show_selected_size():
     
 selected_size = tk.StringVar()
 sizes = (('Small', 'S'),
-             ('Medium', 'M'),
-             ('Large', 'L'),
-             ('Extra Large', 'XL'),
-             ('Extra Extra Large', 'XXL'))
-    
+         ('Medium', 'M'),
+         ('Large', 'L'),
+         ('Extra Large', 'XL'),
+         ('Extra Extra Large', 'XXL'))
+
 # label
 label = ttk.Label(text="What's your t-shirt size?")
 label.pack(fill='x', padx=5, pady=5)
