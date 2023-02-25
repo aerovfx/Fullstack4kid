@@ -73,8 +73,6 @@ python -m django --version
 
 Nó sẽ hiển thị một cái gì đó như thế này:
 
-4.1.1
-
 Lưu ý rằng bạn có thể thấy một phiên bản cao hơn.
 
 Khám phá các lệnh Django
@@ -89,7 +87,7 @@ django-admin
 
 Type 'django-admin help <subcommand>' for help on a specific subcommand.
 
-Available subcommands:
+Những câu lệnh thông dụng
 
 [django]
 check
