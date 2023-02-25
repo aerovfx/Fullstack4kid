@@ -178,12 +178,17 @@ Lúc này sẽ có một trang chủ mặc định xuất hiện.
 
 The urls.py contains a default route that maps /admin path with the admin.site.urls view:
 
+path('admin/', admin.site.urls),
+]
+
 from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+
 Code language: Python (python)
 To open the admin page, you use the following URL:
 
