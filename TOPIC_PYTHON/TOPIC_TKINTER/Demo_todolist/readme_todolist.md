@@ -2,6 +2,7 @@
 #Hướng mở rộng sử dụng Swift để tích hợp lên Apple watch
 
 Bài tập demo đầu tiên là tạo 1 to do list đơn giản nhất có thể chỉ có chức năng thêm công việc và xoá công việc.
+<img width="511" alt="Screenshot 2023-02-27 at 17 43 14" src="https://user-images.githubusercontent.com/109997053/221542917-1b604de1-e3da-4440-bd9a-91eda183ea11.png">
 
 1. Chuẩn bị:
 Listbox: Chúng ta sẽ sử dụng Listbox của Python Tkinter để hiển thị nhiều nhiệm vụ được xếp chồng lên nhau. Và các nhiệm vụ có thể được chọn khi nhấp vào chúng.
