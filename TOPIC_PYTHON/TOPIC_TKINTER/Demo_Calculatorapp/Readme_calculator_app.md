@@ -1,4 +1,4 @@
-1. CÁC BƯỚC
+1. CÁC BƯỚC <br>
 Importing the module – tkinter <br>
 Create the main window (container) <br>
 Add any number of widgets to the main window <br>
