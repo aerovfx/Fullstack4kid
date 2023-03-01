@@ -2,7 +2,7 @@
 import tkinter as tk
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 
-#Định nghĩa hàm mở file
+#Định nghĩa hàm mở file (open_file)
 def open_file():
     """Mở một tập tin để chỉnh sửa."""
     filepath = askopenfilename(
@@ -16,7 +16,7 @@ def open_file():
         txt_edit.insert(tk.END, text)
     window.title(f"Simple Text Editor - {filepath}")
 
-#Định nghĩa hàm lưu file
+#Định nghĩa hàm lưu file (save_file)
 def save_file():
     """Lưu file hiện tại với tên mới."""
     filepath = asksaveasfilename(
