@@ -43,8 +43,8 @@ window.columnconfigure(1, minsize=800, weight=1)
 #tạo hộp văn bản và khung chứa các nút mở và lưu
 txt_edit = tk.Text(window)
 frm_buttons = tk.Frame(window, relief=tk.RAISED, bd=2)
-btn_open = tk.Button(frm_buttons, text="Open", command=open_file)
-btn_save = tk.Button(frm_buttons, text="Save As...", command=save_file)
+btn_open = tk.Button(frm_buttons, text="Open", bg="#C85474", fg="#E63EC4", command=open_file)
+btn_save = tk.Button(frm_buttons, text="Save As...", bg="#93D8EF", fg="#7F1ED3", command=save_file)
 
 #đặt các nút mở và lưu vào khung chứa các nút
 btn_open.grid(row=0, column=0, sticky="ew", padx=5, pady=5)
