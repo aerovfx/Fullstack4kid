@@ -77,7 +77,7 @@ if __name__ == "__main__":
 	gui.title("Chương trình máy tính đơn giản")
 
 	# Đăt kích thước cửa sổ là dài và rộng là 300 và 150
-	gui.geometry("300x150")
+	gui.geometry("280x120")
 
     # StringVar() là lớp biến
     # chúng ta tạo một ví dụ của lớp này
