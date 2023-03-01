@@ -4,6 +4,8 @@ Create the main window (container) <br>
 Add any number of widgets to the main window <br>
 Apply the event Trigger on the widgets. <br>
 
+Màu của nút lấy ở trang sau, color code. <br>
+https://htmlcolorcodes.com <br>
 
 2. QUÁ TRÌNH THỰC HIỆN CHI TIẾT <br>
 Đoạn mã bắt đầu bằng việc nhập các module cần thiết. <br>
