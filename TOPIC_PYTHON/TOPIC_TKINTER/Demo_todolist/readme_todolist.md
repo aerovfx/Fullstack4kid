@@ -23,7 +23,7 @@ Bước 1: Import các module cần thiết
 from tkinter import *
 from tkinter import messagebox
 
-Bước 2: Cấu hỉnh cửa sổ của ứng dụng
+Bước 2: Cấu hình cửa sổ của ứng dụng
 
 ws = Tk()
 # ws.geometry(‘width x height + x-position+ y-position’)
