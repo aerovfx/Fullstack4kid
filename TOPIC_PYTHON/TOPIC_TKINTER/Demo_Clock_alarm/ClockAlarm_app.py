@@ -6,7 +6,7 @@ import os
 class AlarmClock:
     def __init__(self, master):
         self.master = master
-        master.title("Alarm Clock")
+        master.title("Đồng hồ báo thức-Alarm Clock")
         
         # Create labels
         self.label_time = tk.Label(master, text="")
@@ -61,14 +61,7 @@ class AlarmClock:
         self.button_set_alarm.configure(state=tk.NORMAL)
         self.button_stop_alarm.configure(state=tk.DISABLED)
         
-    ''' def play_alarm(self):
-        # Play the alarm sound and flash the window
-        for i in range(3):
-            self.master.after(500, self.flash)
-            time.sleep(0.5)
-        audio_path = os.path.join(os.path.dirname(__file__), 'alarm.mp3') # add this line
-        os.system(f'afplay "/Users/dangvietchung/Fullstack4kid/TOPIC_PYTHON/TOPIC_TKINTER/Demo_Clock_alarm/sounds/alarm.mp3" &') # modify this line
-    '''
+  
     def play_alarm(self):
         # Play the alarm sound and flash the window
         for i in range(3):
