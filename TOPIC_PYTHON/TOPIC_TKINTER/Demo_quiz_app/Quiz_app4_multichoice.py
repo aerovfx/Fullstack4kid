@@ -102,10 +102,9 @@ class Quiz:
 
 # Example usage
 questions = [
-    {"question": "What is the capital of France?", "choices": ["Paris", "London", "Berlin", "Rome"], "answer": "Paris"},
-    {"question": "What is the largest planet in our solar system?", "choices": ["Jupiter", "Saturn", "Mars", "Neptune"], "answer": "Jupiter"},
-    {"question": "Who invented the telephone?", "choices": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Henry Ford"], "answer": "Alexander Graham Bell"},
-    {"question": "What is the currency of Japan?", "choices": ["Yuan", "Yen", "Won", "Baht"], "answer": "Yen"},
+    {"question": "Thủ đô của Việt Nam là?", "choices": ["Hải Phòng", "Vũng Tàu", "Huế", "Hà Nội"], "answer": "Hà Nội"},
+    {"question": "Phương tiện gì thông dụng nhất ở Việt Nam?", "choices": ["Xe đạp", "Ô tô", "Xe máy", "Tàu thuỷ"], "answer": "Xe máy"},
+   
 ]
 
 root = Tk()
