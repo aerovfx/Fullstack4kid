@@ -15,13 +15,13 @@ from django.shortcuts import render
 Find it and open it, and replace the content with this:
 
 my_tennis_club/members/views.py:
-<code>
+
     from django.shortcuts import render
     from django.http import HttpResponse
 
     def members(request):
         return HttpResponse("Hello world!")
-</code>
+
 
 Note: The name of the view does not have to be the same as the application.
 
