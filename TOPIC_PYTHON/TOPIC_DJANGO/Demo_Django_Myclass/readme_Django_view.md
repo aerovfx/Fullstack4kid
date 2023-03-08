@@ -5,14 +5,13 @@ Một trang web sử dụng Django có đầy đủ các chế độ xem với c
 
 Lượt xem thường được đặt trong tệp có tên views.py nằm trong thư mục ứng dụng của bạn.
 
-Có một views.py trong thư mục member (thành viên) của bạn trông như thế này:
+File views.py trong thư mục member (thành viên) của bạn trông như thế này:
 
 my_class/members/views.py:
 
-from django.shortcuts import render
+    from django.shortcuts import render
 
 # Create your views here.
-Find it and open it, and replace the content with this:
 
 my_class/members/views.py:
 
