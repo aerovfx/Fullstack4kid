@@ -1,20 +1,20 @@
 Views
-Django views are Python functions that takes http requests and returns http response, like HTML documents.
+Chế độ xem Django là các hàm Python nhận yêu cầu http và trả về phản hồi http, giống như tài liệu HTML.
 
-A web page that uses Django is full of views with different tasks and missions.
+Một trang web sử dụng Django có đầy đủ các chế độ xem với các tác vụ và nhiệm vụ khác nhau.
 
-Views are usually put in a file called views.py located on your app's folder.
+Lượt xem thường được đặt trong tệp có tên views.py nằm trong thư mục ứng dụng của bạn.
 
-There is a views.py in your members folder that looks like this:
+Có một views.py trong thư mục member (thành viên) của bạn trông như thế này:
 
-my_tennis_club/members/views.py:
+my_class/members/views.py:
 
 from django.shortcuts import render
 
 # Create your views here.
 Find it and open it, and replace the content with this:
 
-my_tennis_club/members/views.py:
+my_class/members/views.py:
 
     from django.shortcuts import render
     from django.http import HttpResponse
