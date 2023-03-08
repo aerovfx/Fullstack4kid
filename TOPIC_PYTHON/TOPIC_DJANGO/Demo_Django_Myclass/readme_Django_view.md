@@ -22,6 +22,6 @@ my_class/members/views.py:
         return HttpResponse("Hello world!")
 
 
-Note: The name of the view does not have to be the same as the application.
-
-I call it members because I think it fits well in this context.
+Note: 
+    Tên của view không nhất thiết phải giống như tên ứng dụng
+    Tên app tôi gọi là thành viên vì nó phù hợp với đặc điểm của ứng dụng là quản lí danh sách các thành viên.
