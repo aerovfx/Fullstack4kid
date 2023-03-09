@@ -30,13 +30,13 @@ my_class<br>
         urls.py
         wsgi.py
 
-Bước 5: Chạy thử dự án
+Bước 5: Chạy thử dự án, cd đến thư mục my_class, nơi chứ thư mục cùng cấp với file có tên là manage.py <br>
 Cú pháp:
 python manage.py runserver
 
 Bước 6: Tạo app, ứng dụng
 Cú pháp:
-python manage.py startapp py members
+python manage.py startapp members
 
 Cấu trúc thư mục dự án như sau:
 my_class
