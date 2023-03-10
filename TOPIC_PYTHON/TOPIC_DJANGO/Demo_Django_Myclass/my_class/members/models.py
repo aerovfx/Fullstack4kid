@@ -4,6 +4,9 @@ from django.db import models
 class Members(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
+    #bổ sung số điện thoại và ngày tham gia nhóm
+    phone = models.IntegerField()
+    joined_date = models.DateField()
     
 #Model lớp gồm có sinh viên là thành viên lớp cùng với tên lớp, ngày mở, ngày kết thúc và đánh giá xếp hạng.
 class Class(models.Model):
