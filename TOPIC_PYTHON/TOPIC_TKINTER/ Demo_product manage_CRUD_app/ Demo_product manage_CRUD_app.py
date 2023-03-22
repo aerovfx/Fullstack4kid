@@ -120,7 +120,6 @@ class ProductManager:
         else:
             self.orders_listbox.delete(selection[0])
 
-if name == "main":
-    root = tk.Tk()
+root = tk.Tk()
 app = ProductManager(root)
 root.mainloop()
