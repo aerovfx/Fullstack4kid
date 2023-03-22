@@ -119,3 +119,8 @@ class ProductManager:
             messagebox.showerror("Error", "Please select an order to delete.")
         else:
             self.orders_listbox.delete(selection[0])
+
+if name == "main":
+    root = tk.Tk()
+app = ProductManager(root)
+root.mainloop()
