@@ -3,12 +3,13 @@ import tkinter as tk
 from tkinter import messagebox
 
 def solve_quadratic():
+#Hàm giải phương trình bậc 2, nhập hệ số a, b, c
     try:
         a = float(a_entry.get())
         b = float(b_entry.get())
         c = float(c_entry.get())
 
-        # calculate discriminant
+        # calculate discriminant, tính delta
         discriminant = b**2 - 4*a*c
 
         # calculate roots
