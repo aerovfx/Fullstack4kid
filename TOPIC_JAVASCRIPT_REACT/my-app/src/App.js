@@ -8,6 +8,7 @@ function App() {
     <BrowserRouter>
       <Box sx={{ backgroundColor: '#0000' }}>
         <Navbar />
+       
         
       </Box>
     </BrowserRouter>
@@ -15,4 +16,3 @@ function App() {
 }
 
 export default App;
-//https://reactrouter.com/en/main/upgrading/v5#upgrade-to-react-router-v6
