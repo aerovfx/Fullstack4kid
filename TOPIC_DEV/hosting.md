@@ -21,7 +21,7 @@ Cài đặt Apache and Updating the Firewall
 Cú pháp: sudo apt update
 -Cài đặt Apache
 sudo apt install apache2
--Cài đặt Firewall to Allow Web Traffic
+-Cài đặt Firewall để cho phép Web Traffic
 Cú pháp: sudo ufw app list
 -Check thông tin cổng:
 Cú pháp: sudo ufw app info "Apache Full"
