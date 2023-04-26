@@ -6,6 +6,7 @@ HTML là ngôn ngữ đánh dấu siêu văn bản.
 4. Các thuộc tính
 
 Bài tập:
+Buổi 1: HTML và các thành phần.
 1. Tạo 1 file HTML có đầy đủ các thành phần và thuộc tính trong lý thuyết.
 Cụ thể là trang hồ sơ cá nhân.
 Ví dụ 
@@ -17,3 +18,7 @@ Ví dụ
 
 
 Hoàn thành bài trong buổi học hôm nay nha.
+
+Buổi 2: Tìm hiểu file css để định dang văn bản.
+Tạo file style.css để định dạng file html. Tạo file html với tên là baitap2.html
+<img width="1065" alt="Screenshot 2023-04-26 at 18 58 40" src="https://user-images.githubusercontent.com/109997053/234568337-d82ba0de-3fd6-4af8-864e-3638311530bb.png">
