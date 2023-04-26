@@ -22,3 +22,12 @@ Hoàn thành bài trong buổi học hôm nay nha.
 Buổi 2: Tìm hiểu file css để định dang văn bản.
 Tạo file style.css để định dạng file html. Tạo file html với tên là baitap2.html
 <img width="1065" alt="Screenshot 2023-04-26 at 18 58 40" src="https://user-images.githubusercontent.com/109997053/234568337-d82ba0de-3fd6-4af8-864e-3638311530bb.png">
+
+Buổi 3: Luyện tập với css.
+Tự thực hiện định dạng một trang front-end với 2 file html và css.
+Đặt tên:
+baitap3.html
+bt3_style.css
+
+Hình ảnh cần thực hiện:
+![2e013d81cd6e0a24101e88d188ccb9ce](https://user-images.githubusercontent.com/109997053/234572926-523b2d6e-c3c0-4bb8-9eb7-a56f02a0218e.jpg)
