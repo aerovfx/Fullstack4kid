@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../image/thuocla.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgb(65, 13, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 31, 31);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
