@@ -1,15 +1,7 @@
-# Đọc dữ liệu từ file INPUT
-with open("b4_DICT.INP", "r") as file:
-    n = int(file.read().strip())
+n = 5 # Nhập và gán một số nguyên vào biến n
+d = {}  # Khởi tạo một từ điển rỗng
 
-# Tạo từ điển chứa (i, i*i) từ 1 đến n
-d = {}
-for i in range(1, n + 1):
-    d[i] = i * i
+for i in range(1, n+1):  # Vòng lặp từ 1 đến n+1
+    d[i] = i*i  # Gán giá trị i*i cho phần tử có khóa là i trong từ điển
 
-# Xuất kết quả vào file OUTPUT
-with open("b4_DICT.OUT", "w") as file:
-    file.write("{\n")
-    for key, value in d.items():
-        file.write(f"  {key}: {value},\n")
-    file.write("}\n")
+print(d)  # In ra từ điển d chứa các cặp (i, i*i) tương ứng từ 1 đến n
