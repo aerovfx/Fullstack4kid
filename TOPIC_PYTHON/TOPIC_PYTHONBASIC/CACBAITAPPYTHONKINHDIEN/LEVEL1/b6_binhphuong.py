@@ -3,3 +3,4 @@
 x = int(input("Nhập vào 1 số : "))
 def square(x):
     return x * x
+print(square(x))
