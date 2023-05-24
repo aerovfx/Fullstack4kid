@@ -13,6 +13,7 @@ def max_of_three(a, b, c):
         else:
             return c
 #Lưu ý, sử dụng hàm max() của Python.
+
 def max2(a,b,c):
     max = max(a,b,c)
     return max

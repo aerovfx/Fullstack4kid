@@ -3,6 +3,6 @@
 # phân tách nhau bằng dấu phẩy.
 
 #Giả sử đầu vào được nhập là: without,hello,bag,world thì đầu ra sẽ là bag,hello,without,world.
-items=[x for x in input("Nhập một chuỗi: ").split(',')]
+items=["a", "re", "tr"]
 items.sort()
 print (','.join(items))

@@ -1,3 +1,10 @@
+input_str = input("Nhập X, Y: ")
+dimensions = [int(x) for x in input_str.split(',')]
+rowNum, colNum = dimensions
+multilist = [[row * col for col in range(colNum)] for row in range(rowNum)]
+
+print(multilist)
+
 #Viết chương trình và in giá trị theo công thức cho trước: Q = √([(2 * C * D)/H]) 
 #(bằng chữ: Q bằng căn bậc hai của [(2 nhân C nhân D) chia H]. Với giá trị cố định của C là 50, H là 30.
 # D là dãy giá trị tùy biến, được nhập vào từ giao diện người dùng, các giá trị của D được phân cách bằng dấu phẩy.
@@ -7,11 +14,3 @@
 #Trong trường hợp dữ liệu đầu vào được cung cấp cho câu hỏi, 
 #nó được giả định là đầu vào do người dùng nhập từ giao diện điều khiển.
 #!/usr/bin/env python
-import math
-c=50
-h=30
-value = []
-items=[x for x in input("Nhập giá trị của d: ").split(',')]
-for d in items:
-    value.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
-print (','.join(value))

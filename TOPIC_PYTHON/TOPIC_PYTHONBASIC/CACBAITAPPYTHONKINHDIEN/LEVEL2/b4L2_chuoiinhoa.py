@@ -8,11 +8,10 @@
 #PRACTICE MAKES PERFECT
 lines = []
 while True:
-   s = input()
-   if s:
-      lines.append(s.upper())
-   else:
-      break;
+    s = input("Nhập chuỗi (nhập trống để kết thúc): ")
+    if not s:
+        break
+    lines.append(s.upper())
 
 for sentence in lines:
-    print (sentence)
+    print(sentence)

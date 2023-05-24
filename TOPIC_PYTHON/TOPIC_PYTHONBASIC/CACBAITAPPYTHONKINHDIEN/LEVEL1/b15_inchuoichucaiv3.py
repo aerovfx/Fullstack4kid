@@ -3,6 +3,17 @@
 # phân tách nhau bằng dấu phẩy.
 
 #Giả sử đầu vào được nhập là: without,hello,bag,world thì đầu ra sẽ là bag,hello,without,world.
-items=[x for x in input("Nhập một chuỗi: ").split(',')]
+input_file = "b15_INCHUOI.INP"
+output_file = "b15_INCHUOI.OUT"
+
+with open(input_file, "r") as file:
+    items = file.read().strip().split(',')
+# Sắp xếp các từ theo thứ tự bảng chữ cái
 items.sort()
-print (','.join(items))
+
+# In ra chuỗi đã sắp xếp
+result_string = ','.join(items)
+
+# Ghi kết quả vào file OUTPUT
+with open("b15_INCHUOI.OUT", "w") as file:
+    file.write(result_string)

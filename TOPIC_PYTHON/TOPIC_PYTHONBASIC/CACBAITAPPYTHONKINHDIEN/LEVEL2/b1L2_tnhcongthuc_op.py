@@ -7,11 +7,13 @@
 #Trong trường hợp dữ liệu đầu vào được cung cấp cho câu hỏi, 
 #nó được giả định là đầu vào do người dùng nhập từ giao diện điều khiển.
 #!/usr/bin/env python
+
 import math
-c=50
-h=30
-value = []
-items=[x for x in input("Nhập giá trị của d: ").split(',')]
-for d in items:
-    value.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
-print (','.join(value))
+
+c = 50
+h = 30
+
+items = input("Nhập giá trị của D: ").split(',')
+values = [str(int(round(math.sqrt(2 * c * float(d) / h)))) for d in items]
+
+print(','.join(values))
