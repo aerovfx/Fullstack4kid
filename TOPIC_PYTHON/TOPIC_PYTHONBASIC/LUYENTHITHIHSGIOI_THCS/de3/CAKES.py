@@ -1,6 +1,6 @@
 def find_divisors(n):
     divisors = []  # Tạo một danh sách rỗng để lưu trữ ước số
-    for i in range(1, int(n**0.5) + 1):  # Lặp qua các số từ 1 đến căn bậc hai của n
+    for i in range(1, int(n)):  # Lặp qua các số từ 1 đến n
         if n % i == 0:  # Kiểm tra xem i có phải là ước số của n hay không
             divisors.append(i)  # Thêm i vào danh sách ước số
             if i != n // i:  # Kiểm tra xem i có phải là một ước số khác của n hay không
