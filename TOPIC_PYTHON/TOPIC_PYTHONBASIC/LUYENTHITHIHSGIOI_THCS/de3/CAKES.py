@@ -8,16 +8,12 @@ def find_divisors(n):
     divisors.sort()  # Sắp xếp danh sách ước số theo thứ tự tăng dần
     return divisors  # Trả về danh sách ước số
 
-def divide_cakes(n):
-    divisors = find_divisors(n)  # Gọi hàm find_divisors để tìm danh sách ước số của n
-    return divisors  # Trả về danh sách ước số
-
 # Đọc dữ liệu từ file
 with open('CAKES.INP', 'r') as file:
     n = int(file.readline().strip())  # Đọc dòng đầu tiên trong file và chuyển đổi thành số nguyên
 
 # Tính toán các phương án chia bánh
-result = divide_cakes(n)  # Gọi hàm divide_cakes để tìm các phương án chia bánh
+result = find_divisors(n)  # Gọi hàm divide_cakes để tìm các phương án chia bánh
 
 # Ghi kết quả vào file
 with open('CAKES.OUT', 'w') as file:
