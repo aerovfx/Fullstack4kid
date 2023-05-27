@@ -1,33 +1,24 @@
-def count_continuous_subsequences(n, S, A):
-    count = 0
-    prefix_sum = 0
-    prefix_sum_count = {0: 1}
+# Read input data from file
+with open("CNTSEQ.INP", "r") as input_file:
+    input_lines = input_file.readlines()
 
-    for i in range(n):
-        prefix_sum += A[i]
+# Process input data
+readline1_split = list(map(int, input_lines[0].split()))
+readline2_split = list(map(int, input_lines[1].split()))
 
-        if prefix_sum >= S:
-            count += prefix_sum_count.get(prefix_sum - S, 0)
+# Remove negative numbers and convert them to positive
+readline2_split = [abs(num) for num in readline2_split]
 
-        abs_prefix_sum = abs(prefix_sum)
+# Calculate the sum and count
+total_sum = 0
+count = 0
 
-        for j in range(1, abs_prefix_sum + 1):
-            if (abs_prefix_sum - j) in prefix_sum_count:
-                count += prefix_sum_count[abs_prefix_sum - j]
+for i in range(len(readline2_split)):
+    for j in range(i+1, len(readline2_split)):
+        current_sum = readline2_split[i] + readline2_split[j]
+        if current_sum > readline1_split[1]:
+            count += 1
 
-        prefix_sum_count[prefix_sum] = prefix_sum_count.get(prefix_sum, 0) + 1
-
-    return count
-
-
-# Đọc dữ liệu từ file
-with open('CNTSEQ.INP', 'r') as file:
-    n, S = map(int, file.readline().split())
-    A = list(map(int, file.readline().split()))
-
-# Đếm số dãy con liên tiếp thỏa mãn yêu cầu
-result = count_continuous_subsequences(n, S, A)
-
-# Ghi kết quả vào file đầu ra
-with open('CNTSEQ.OUT', 'w') as file:
-    file.write(str(result))
+# Write output data to file
+with open("CNTSEQ.OUT", "w") as output_file:
+    output_file.write(str(count))
