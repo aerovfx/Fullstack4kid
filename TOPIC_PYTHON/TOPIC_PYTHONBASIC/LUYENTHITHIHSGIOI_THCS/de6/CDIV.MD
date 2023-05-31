@@ -7,7 +7,7 @@ Kết quả: ghi ra file CDIV.OUT một số nguyên duy nhất là ước chung
 Ví dụ:
 CDIV.INP
 6
-1 2 5 6 4 7 10
+12 5 6 4 7 10
 
 CDIV.OUT
 6

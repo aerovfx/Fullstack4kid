@@ -18,7 +18,6 @@ def min_energy_cost(N, K, H):
     # Trả về giá trị nhỏ nhất tìm được để di chuyển từ ô thứ 1 đến ô thứ N
     return dp[N - 1]
 
-
 # Dữ liệu đầu vào
 N = 5
 K = 3
