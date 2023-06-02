@@ -1,5 +1,5 @@
 import math
-
+#ham kiem tra 1 diem co thuoc duong tron hay khong?
 def kiem_tra_thuoc_duong_tron(a, b, r, x, y):
     # Tính khoảng cách từ điểm A đến tâm I của đường tròn
     khoang_cach = math.sqrt((x - a)**2 + (y - b)**2)
