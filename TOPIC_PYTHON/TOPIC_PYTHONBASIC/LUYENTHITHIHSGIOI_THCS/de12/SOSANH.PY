@@ -11,8 +11,6 @@ with open("SOSANH.INP", "r") as file:
 
 a, b = max_list
 
-
-
 # Xuất kết quả vào file OUTPUT
 with open("SOSANH.OUT", "w") as file:  
     result = max(a,b)   
