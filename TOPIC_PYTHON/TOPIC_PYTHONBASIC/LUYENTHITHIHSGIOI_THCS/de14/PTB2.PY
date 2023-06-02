@@ -1,6 +1,6 @@
 import math #de su dung sqrt
 #ham giai phuong trinh bac 2 voi 3 tham so a, b, c
-def solve_quadratic_equation(a, b, c):
+def ptb2(a, b, c):
     delta = b ** 2 - 4 * a * c
     if delta < 0:
         return None
@@ -21,7 +21,7 @@ with open('ptb2.inp', 'r') as file:
 with open('ptb2.out', 'w') as file:
     for line in lines:
         a, b, c = map(int, line.strip().split())
-        solutions = solve_quadratic_equation(a, b, c)
+        solutions = ptb2(a, b, c)
         if solutions is None:
             file.write('PTVN\n')
         else:
