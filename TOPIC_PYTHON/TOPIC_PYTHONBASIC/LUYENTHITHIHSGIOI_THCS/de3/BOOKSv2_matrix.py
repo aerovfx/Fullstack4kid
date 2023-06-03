@@ -4,6 +4,17 @@ def find_max_pages(prices, pages, budget):
     # Tạo ma trận để lưu số trang tối đa có thể mua cho mỗi tổ hợp giá và ngân sách
     dp = [[0] * (budget + 1) for _ in range(n + 1)]
 
+    #Ví dụ:
+    #Nếu n = 3 (có 3 cuốn sách) và budget = 5 (ngân sách là 5), ma trận dp sẽ có kích thước (4 x 6) và được khởi tạo như sau:
+
+    #dp = [
+    #    [0, 0, 0, 0, 0, 0],
+    #    [0, 0, 0, 0, 0, 0],
+    #    [0, 0, 0, 0, 0, 0],
+    #    [0, 0, 0, 0, 0, 0]
+    #]
+    #Mỗi phần tử dp[i][j] trong ma trận dp sẽ lưu trữ số trang tối đa có thể mua cho tổ hợp giá i và ngân sách j.
+
     # Duyệt qua từng cuốn sách
     for i in range(1, n + 1):
         for j in range(1, budget + 1):
@@ -29,6 +40,7 @@ max_pages = find_max_pages(prices, pages, budget)
 # Ghi kết quả vào file
 with open('BOOKS.OUT', 'w') as file:
     file.write(str(max_pages))  # Ghi số trang tối đa vào file kết quả
+
 """"
 budget: ngân sách
 price: giá
