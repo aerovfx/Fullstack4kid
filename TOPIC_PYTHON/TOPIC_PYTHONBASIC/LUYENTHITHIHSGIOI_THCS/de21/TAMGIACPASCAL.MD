@@ -1,0 +1,1 @@
+Lập tam giác PASCAL, dùng chương trình con.

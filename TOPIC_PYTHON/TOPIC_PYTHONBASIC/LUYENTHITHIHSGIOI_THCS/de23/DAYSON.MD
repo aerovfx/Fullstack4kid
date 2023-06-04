@@ -1,0 +1,1 @@
+Viết chương trình nhập vào một dãy số nguyên   có n phần tử. In ra màn hình phần tử nhỏ nhất, phần tử lớn nhất và giá trị trung bình của danh sách ra màn hình.
