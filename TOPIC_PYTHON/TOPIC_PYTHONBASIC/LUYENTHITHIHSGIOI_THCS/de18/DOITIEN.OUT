@@ -1,17 +1,8 @@
-Nhập 3 loại tiền và số tiền cần đổi. 
-Hãy tìm tất cả các tổ hợp có được của 3 loại tiền trên cho số tiền vừa nhập từ file DOITIEN.INP
-
-Ví dụ:
--------------------------
-| DOITIEN.INP           |          
-| 5000000               |                   
-| 100000                |                    
-| 200000                |                      
-| 500000                |                    
---------------------------
-
-OITIEN.OUT  
-
+CHUONG TRINH DOI TIEN:
+Nhap so tien can doi n = 5000000
+Nhap loai tien thu 1: 100000
+Nhap loai tien thu 2: 200000
+Nhap loai tien thu 3: 500000
 Loai100000  Loai200000   Loai500000
        0           0        10
        0           5         8
