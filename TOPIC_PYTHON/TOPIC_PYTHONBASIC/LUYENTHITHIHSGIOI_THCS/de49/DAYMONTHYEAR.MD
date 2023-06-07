@@ -2,13 +2,13 @@ Cho số nguyên N trong phạm vi từ 1000 đến 999999. Cần xác định s
 
 Ví dụ:
 
-1111       tương ứng với 1 tháng 1 năm 2011;
+1111   tương ứng với 1 tháng 1 năm 2011;
 
-21290     tương ứng với 2 tháng 12 năm 2090 hoặc 21 tháng 2 năm 2090;
+21290  tương ứng với 2 tháng 12 năm 2090 hoặc 21 tháng 2 năm 2090;
 
 131192 tương ứng với 13 tháng 11 năm 2092;
 
-32392     Không phải là thông tin về một ngày tháng nào cả;
+32392  Không phải là thông tin về một ngày tháng nào cả;
 
 311198 Không phải là thông tin về một ngày tháng nào cả;
 

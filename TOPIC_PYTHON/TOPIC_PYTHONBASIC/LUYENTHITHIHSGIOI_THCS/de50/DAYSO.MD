@@ -11,7 +11,6 @@ Kết quả: ghi ra file văn bản DAYSO.OUT:
 Dòng đầu tiên ghi số lượng phép đổi chỗ cần thực hiện k (qui ước k = -1, nếu không thể biến đổi được dãy đã cho thành dãy thoả mãn yêu cầu đầu bài);
 Nếu k > 0, thì dòng thứ j trong số k dòng tiếp theo ghi chỉ số của hai số hạng cần đổi chỗ cho nhau ở lần đổi chỗ thứ j  ( j =1, 2,…, k).
 Ví dụ:
-Ví du:
 -----------------------------------------------
 | DAYSO.INP         | DAYSO.OUT               |
 | 6                 |  1                      |
@@ -28,31 +27,3 @@ Ví du:
 | 2                 |                         |
 | 5                 |                         |
 -----------------------------------------------
-
- DAYSO.INP	DAYSO.OUT		DAYSO.INP	DAYSO.OUT
-6
-1
-
-2
-
-3
-
-4
-
-6
-
-5
-
-1
-5 6
-
-4
-1
-
-3
-
-2
-
-5
-
--1
