@@ -24,7 +24,7 @@ def find_largest_beautiful_rectangle(m, n, k, matrix):
 
 
 # Đọc dữ liệu từ file input
-with open('b2c2_DATA.INP', 'r') as f:
+with open('BANG.INP', 'r') as f:
     T = int(f.readline().strip())  # Đọc số lượng bộ dữ liệu
     results = []
 
@@ -43,6 +43,6 @@ with open('b2c2_DATA.INP', 'r') as f:
 
 
 # Ghi kết quả ra file output
-with open('b2c2_DATA.OUT', 'w') as f:
+with open('BANG.OUT', 'w') as f:
     for result in results:
         f.write(str(result) + '\n')

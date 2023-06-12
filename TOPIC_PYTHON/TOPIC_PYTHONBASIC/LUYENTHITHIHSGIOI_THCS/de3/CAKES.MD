@@ -2,14 +2,6 @@ HỘI THI TIN HỌC TRẺ VŨNG TÀU LẦN 12
 ĐỀ THÌ BẢNG B CẤP THCS
 Thời gian: 120 phút
 Ngày 22/4/2023
-
-ĐỀ THI CHÍNH THỨC
-
-Trong ổ đĩa D, học sinh tạo thư mục có tên B_Số Báo danh và lưu các bài thi dưới đây
-Bài 1: Chia bánh file CAKES.PY CAKES.INP và CAKES.OUT
-Bài 2: Mua sách: file BOOKS.PY BOOKS.INP và BOOKS.OUT
-Bài 3: đếm dãy con liên tiếp CNTSEQ.PY CNTSEQ.INP và CNTSEQ.OUT
-
 Bài 1: Chia bánh (6 điểm)
 Với mong muốn kỳ thi Tin học trẻ cấp thành phố sẽ là sân chơi bổ ích và vui vẻ cho các bạn học sinh, BTC đã mua N chiéc bánh kem nhỏ xinh để thưởng cho các bạn thí sinh. Vấn đề là BTC muốn tìm ra tất cả các cách chia đều số bánh kem trên cho các bạn mà không cần phải cắt bất kỳ chiếc bánh nào
 Yêu cầu: Hãy giúp BTC tìm tất cả các cách chia cho các bạn thí sinh thoả mãn điều kiện trên.

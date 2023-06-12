@@ -21,7 +21,7 @@ def count_geometric_sequences(n, q, a):
 
 
 # Đọc dữ liệu từ file INPUT
-with open('b2c1_DATA.INP', 'r') as f:
+with open('SO.INP', 'r') as f:
     # Đọc dòng đầu tiên chứa n và q
     n, q = map(int, f.readline().split())
 
@@ -32,5 +32,5 @@ with open('b2c1_DATA.INP', 'r') as f:
 res = count_geometric_sequences(n, q, a)
 
 # Ghi kết quả vào file OUTPUT
-with open('b2c1_DATA.OUT', 'w') as f:
+with open('SO.OUT', 'w') as f:
     f.write(' '.join(map(str, res)))

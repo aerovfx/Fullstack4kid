@@ -1,45 +1,21 @@
-
-
-CÂU 1:
-Hãy viết mã lệnh python giải quyết bài toán số học sau:
-Cho dãy gồm số nguyên dương a_1, a_2,...,a_n
-Dãy số b_1, b_2, ...,b_n được gọi là dãy cấp số nhân công bội khi và chỉ khi b_(i+1)với mọi 1 <= i < k
-Yêu cầu: Cho số nguyên q, với mỗi k (1 <k <= n), hãy đếm số dãy con (không nhất thiết liên tiếp) độ dài k của dãy a_1, a_2, ...,a_n là dãy cấp số nhân công bội q.
-Dữ liệu: Vào từ thiết bị vào chuẩn có khuôn dạng:
- Dòng đầu tiên gồm hai số nguyên n, q 
- Dòng thứ hai chứa n số nguyên a_1, a_2,...,a_n
-Ràng buộc:
-Kết quả: Ghi ra thiết bị ra chuẩn một dòng gồm n - 1 số nguyên, số thứ s (1 <= s < n ) là số dãy con độ dài  (s +1)là dãy cấp số nhân công bội chia dư cho (10^9 +7).
- Có 25% số test ứng với 25% số điểm của bài thỏa mãn:
- 25% số test khác ứng với 25% số điểm của bài thỏa mãn:
- 25% số test khác ứng với 25% số điểm của bài thỏa mãn:
- 25% số test còn lại ứng với 25% số điểm của bài không có ràng buộc gì thêm.
-dữ liệu vào trong file b2c1_DATA.INP là: 
-5 2
-1 2 8 4 2
-dữ liệu ra ghi vào file b2c1_DATA.OUT có giá trị là: 3 1 0 0
-
-
-CÂU 2:
-Cho bảng chữ kích thước m x n , mỗi ô chứa một kí tự  'A' hoặc 'B' . Một hình chữ nhật con của
-bảng được gọi là bảng đẹp bậc k nếu số lượng kí tự  'A' và số lượng kí tự 'B' trong bảng con chênh
-lệch không quá k .
-Yêu cầu: Cho bảng chữ kích thước m x n và số nguyên , hãy tìm bảng con là bảng đẹp lớn nhất.
+Cho bảng chữ kích thước m x n , mỗi ô chứa một kí tự  'A' hoặc 'B' . <br>
+Một hình chữ nhật con của bảng được gọi là bảng đẹp bậc k nếu số lượng kí tự  'A' và số lượng kí tự 'B' trong bảng con chênh lệch không quá k.<br>
+Yêu cầu: Cho bảng chữ kích thước m x n và số nguyên , hãy tìm bảng con là bảng đẹp lớn nhất.<br>
 Dữ liệu: Vào từ thiết bị vào chuẩn có khuôn dạng:
 - Dòng đầu chứa số nguyên T (T <= 5) là số bộ dữ liệu;
 - T nhóm dòng sau, mỗi dòng mô tả một bộ dữ liệu có dạng:
-o Dòng đầu chứa ba số nguyên m, n ,k ;
+o Dòng đầu chứa ba số nguyên m, n ,k ;<br>
 o m dòng tiếp theo, mỗi dòng chứa một xâu kí tự độ dài chỉ gồm kí tự A hoặc B.
 Kết quả: Ghi ra thiết bị ra chuẩn T dòng, mỗi dòng chứa một số là số lượng ô trong bảng tìm được
-tương ứng với dữ liệu vào.
-Ràng buộc:
- Có 25% số test ứng với 25% số điểm của bài có m x n <= 100;
- Có 25% số test khác ứng với 25% số điểm của bài có m x n <= 2000;
- Có 25% số test khác ứng với 25% số điểm của bài có m x n <= 4000; k = 0;
- Có 25% số test còn lại ứng với 25% số điểm của bài có m x n < = 60000
-Ví dụ:
+tương ứng với dữ liệu vào.<br>
+Ràng buộc:<br>
+ Có 25% số test ứng với 25% số điểm của bài có m x n <= 100;<br>
+ Có 25% số test khác ứng với 25% số điểm của bài có m x n <= 2000;<br>
+ Có 25% số test khác ứng với 25% số điểm của bài có m x n <= 4000; k = 0;<br>
+ Có 25% số test còn lại ứng với 25% số điểm của bài có m x n < = 60000<br>
+Ví dụ:<br>
 
-Dữ liệu vào 
+Dữ liệu vào <br>
 2
 3 4 0
 AAAA

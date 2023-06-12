@@ -18,7 +18,7 @@ def count_geometric_subsequences(n, q, a):
     return counts
 
 # Đọc dữ liệu từ file input
-with open('b2c1_DATA.INP', 'r') as file:
+with open('SO.INP', 'r') as file:
     n, q = map(int, file.readline().split())  # Đọc số phần tử n và giá trị q
     a = list(map(int, file.readline().split()))  # Đọc dãy số nguyên a
 
@@ -26,5 +26,5 @@ with open('b2c1_DATA.INP', 'r') as file:
 result = count_geometric_subsequences(n, q, a)
 
 # Ghi kết quả vào file output
-with open('b2c1_DATA.OUT', 'w') as file:
+with open('SO.OUT', 'w') as file:
     file.write(' '.join(str(x) for x in result))  # Ghi danh sách kết quả vào file output, cách nhau bởi dấu cách

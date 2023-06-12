@@ -1,5 +1,5 @@
 def tinh_thoi_gian_di(n, m, l, kiens):
-    # Sắp xếp các kiến theo khối lượng giảm dần
+    #Sắp xếp các kiến theo khối lượng giảm dần
     #kiens.sort(reverse=True)
     
     tong_thoi_gian = 0  # Tổng thời gian đi qua cành cây
