@@ -1,16 +1,16 @@
-def convert_lines_to_uppercase(input_file, output_file):
+def convert_lines_to_uppercase():
     lines = []
-    with open(input_file, 'r') as file:
+    with open(input_filename, 'r') as file:
         lines = file.readlines()
 
-    lines = [line.strip().upper() for line in lines]
+    uppercase_lines = [line.upper() for line in lines]
 
-    with open(output_file, 'w') as file:
-        file.write('\n'.join(lines))
+    with open(output_filename, 'w') as file:
+        for sentence in uppercase_lines:
+            file.write(sentence)
 
-# Nhập tên file đầu vào và đầu ra từ người dùng
-input_file = input("Nhập tên file đầu vào: ")
-output_file = input("Nhập tên file đầu ra: ")
-
+    print("Đã ghi kết quả vào file", output_filename)
+input_filename = "b4L2_CHUOIINHOA.INP"
+output_filename = "b4L2_CHUOIINHOA.OUT"
 # Gọi hàm để thực thi chương trình
-convert_lines_to_uppercase(input_file, output_file)
+convert_lines_to_uppercase()

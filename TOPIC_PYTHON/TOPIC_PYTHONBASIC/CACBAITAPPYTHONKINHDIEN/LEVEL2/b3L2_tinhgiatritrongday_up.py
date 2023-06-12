@@ -17,4 +17,4 @@ n = int(input("Nhập vị trí n: "))
 sequence_value = calculate_sequence_value(sequence, n)
 print(f"Giá trị của số đứng ở vị trí {n} trong dãy là: {sequence_value}")
 
-#day nhap bat ky
+#day nhap bat ky tu ban phim
