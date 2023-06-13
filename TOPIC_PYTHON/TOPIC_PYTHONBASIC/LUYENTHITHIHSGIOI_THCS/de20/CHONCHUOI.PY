@@ -1,29 +1,26 @@
+# Khối hàm tách chữ ra khỏi số
 def extract_words(line):
     words = line.split()
-    non_numeric_words = [word for word in words if not word.isdigit()]
-    return non_numeric_words
+    non_num_words = [ word for word in words if not word.isdigit()]
+    return non_num_words
 
-def read_input_file():
-    with open("CHONCHUOI.INP", "r") as file_input:
-        lines = file_input.readlines()
-    return lines
+#print(extract_words("32 toi hj 01 fd r3 dfde32"))
 
-def write_output_file(words):
-    with open("CHONCHUOI.OUT", "w") as file_output:
-        for word in words:
-            file_output.write(word + " ")
-        file_output.write("\n")
+# Đọc dữ liệu từ file
+with open("CHONCHUOI.INP", "r") as file_input:
+    lines = file_input.readlines()
 
-def main():
-    lines = read_input_file()
+# Khối xử lí
+all_lines = []
 
-    all_words = []
+for line in lines:
+    line = line.strip()
+    words = extract_words(line)
+    all_lines.append(" ".join(words))
 
-    for line in lines:
-        line = line.strip()
-        words = extract_words(line)
-        all_words.extend(words)
-
-    write_output_file(all_words)
-
-main()
+lines = all_lines
+# Ghi dữ liệu ra file
+with open("CHONCHUOI.OUT", "w") as file_output:
+    for i in range(len(lines)):
+        file_output.write(lines[i].strip() + "\n")
+    

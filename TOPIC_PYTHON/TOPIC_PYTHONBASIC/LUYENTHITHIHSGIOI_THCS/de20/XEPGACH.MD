@@ -17,13 +17,13 @@ t dòng tiếp theo, mỗi dòng chứa một số nguyên n ứng với một t
 Kết quả: Ghi ra thiết bị xuất chuẩn:
 Ứng với mỗi truy vấn, ghi ra số viên gạch bị thừa theo phương án tìm được
 Ví dụ:
----------------------------------------------------------------------
-| XEPGACH.INP | XEPGACH.UOT |            Giải thích                |
-| 3           | 5           |n = 20, chọn 3 × 5, thừa 5 viên       |
-| 20          | 10          |n = 25, chọn 3 × 5, thừa 10 viên      |
-| 25          | 0           |n = 2021, chọn 43 × 47, thừa 0 viên   |
+----------------------------------------------------
+| XEPGACH.INP | XEPGACH.UOT |   Giải thích          |
+| 3           | 5           |n = 20, chọn 3 × 5     |
+| 20          | 10          |n = 25, chọn 3 × 5     |
+| 25          | 0           |n = 2021, chọn 43 × 47 |
 | 2021        |
---------------------------------------------------------------------
+----------------------------------------------------
 n = 20, chọn 3 × 5, thừa 5 viên
 n = 25, chọn 3 × 5, thừa 10 viên
 n = 2021, chọn 43 × 47, thừa 0 viên
