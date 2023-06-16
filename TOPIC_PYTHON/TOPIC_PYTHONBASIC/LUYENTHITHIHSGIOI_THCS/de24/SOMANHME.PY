@@ -1,27 +1,27 @@
-from math import sqrt
+# hàm tìm các số nguyên tố trong phạm vi num
+def gen_prime(num):
+    primes = []
+    for number in range(2, num + 1):
+        is_prime = True
+        for prime in primes:
+            if number % prime == 0:
+                is_prime = False
+                break
+        if is_prime:
+            primes.append(number)
+    return primes
 
-def is_prime(a): # hàm kiểm tra một số phải là số nguyên tố hay không?
-    if a == 1:
-        return False
-    if a == 2:
-        return True
-    for i in range(2, int(sqrt(a)) + 1):
-        if a % i == 0:
-            return False
-    return True
+# Hàm kiểm tra tính mạnh mẽ của một sô
+def is_strongnum(number, primes):
+    for prime in primes:
+        if number % prime == 0 and number % prime ** 2 == 0:
+            return True
+    return False
 
-n = 1
-a = ""
+# Tạo danh sách các số nguyên tố trong phạm vi từ 2 đến 40
+primes = gen_prime(40)
 
-while n < 40:
-    is_composite = False
-    for i in range(2, int(sqrt(n)) + 1):
-        if n % (i * i) == 0:
-            is_composite = True
-            break
-    if is_composite and is_prime(i):
-        a += str(n) + " "
-    n += 1
-
-print("Dãy số mạnh mẽ:", a)
-#Số nguyên tố: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,.
+# In ra các số mạnh mẽ từ 2 đến 40
+for number in range(2,41):
+    if is_strongnum(number, primes):
+        print(number)

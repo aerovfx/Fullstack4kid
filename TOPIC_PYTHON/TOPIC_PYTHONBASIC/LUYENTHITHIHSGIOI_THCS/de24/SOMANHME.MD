@@ -1,6 +1,6 @@
 ĐỀ TỈNH HẢI DƯƠNG 2020
 Số mạnh mẽ là số khi nó chia hết cho số nguyên tố thì cũng chia hết cho bình phương của số nguyên tố đó.
-Ví dụ: 23 là số mạnh mẽ vì nó chia hết cho 5 và chia hết cho cả bình phương của 5 là 25.
+Ví dụ: 25 là số mạnh mẽ vì nó chia hết cho 5 và chia hết cho cả bình phương của 5 là 25.
 
 Thuật toán:
 1. Kiểm tra 1 số phải là số nguyên tố hay không?
