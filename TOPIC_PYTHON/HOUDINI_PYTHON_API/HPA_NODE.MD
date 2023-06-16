@@ -65,3 +65,18 @@ merge_node = myGeo.createNode("merge")
 #  Merge 2 node
 merge_node.setInput(0, hou.node("/obj/myGeo/myColor"))
 merge_node.setInput(1, hou.node("/obj/myGeo/myColor1"))
+
+
+# CÁCH LÀM GỘP
+box = hou.node("/obj").createNode("geo").createNode("box")
+box.parent().createNode("xform").setFirstInput(box)
+box.parent().createNode("wire").setFirstInput(box)
+box.outputConnections()
+
+# Đặt thuộc tính màu sắc
+boxGeo =box.geometry()
+boxGeo.pointAttribs()
+
+colorAttribs = boxGeo.pointAttribs()[0]
+colorAttribs
+# Mở bảng theo dõi điểm P, Cd

@@ -1,8 +1,10 @@
-Những con kiến đi kiếm ăn hay về tổ thường tổ chức đi theo từng đoàn. Trong một lần nọ, có một doàn kiến gồm m on đi trên một nhánh cây và được đánh số thứ tự từ 1 đến n,
+ĐỀ THI TỈNH VŨNG TÀU 2023.
+Những con kiến đi kiếm ăn hay về tổ thường tổ chức đi theo từng đoàn. 
+Trong một lần nọ, có một doàn kiến gồm m con đi trên một nhánh cây và được đánh số thứ tự từ 1 đến n,
 con kiến thức i có vận tốc di chuyển riêng là v_i và có khối lượng tương ứng là k_i (với i = 1,2,...,n). 
 Theo lộ trình thì đoàn kiến sẽ đi tuần tự theo số thứ tự để đi kiếm thức ăn. Tuy nhiên trên lộ trình đi có một cành cây không được đảm bảo để đoàn kiến qua lại thoải mái.
 Được biết rằng nếu như tổng khối lượng của các con kiến cùng trên cành cây đó vượt qúa khối lượng m thì cành cây có thể bị cong hoặc gãy làm cho các con kiến có thể bị rơi xuống đất (tức là trong cùng một thời điểm thì tổng khối lượng các con kiến trên cành cây đó không được vượt quá khối lương m).
-Chính vì thế khi qua cành cây các con kiến phải chia đoàn thành các nhóm sao cho tổng khối lượng của mỗi một nhóm không quá m, các con kiến trong từng nhóm hay các nhóm với nhau cũng phải tuân theo thứ tự ban đầu. Thêm vào đó nữa là các nhóm phải đi tuần tự, nghĩa là nhóm thứ i chỉ được đi qua khi mà toàn bộ kiến của nhóm thứ i -1 đi qua được cành cây đó. Vận tốc đi của mỗi nhóm là hoàn toàn khác nhau và phụ thuộc vào con kiến có tốc độ chậm nhất. Nhiệm vụ của đoàn kiến là phải đi qua cành cây đó gây ra.
+Chính vì thế khi qua cành cây các con kiến phải chia đoàn thành các nhóm sao cho tổng khối lượng của mỗi một nhóm không quá m, các con kiến trong từng nhóm hay các nhóm với nhau cũng phải tuân theo thứ tự ban đầu. Thêm vào đó nữa là các nhóm phải đi tuần tự, nghĩa là nhóm thứ i chỉ được đi qua khi mà toàn bộ kiến của nhóm thứ i -1 đi qua được cành cây đó. Vận tốc đi của mỗi nhóm là hoàn toàn khác nhau và phụ thuộc vào con kiến có tốc độ chậm nhất. Nhiệm vụ của đoàn kiến là phải đi qua cành cây đó.
 Yêu cầu: Hãy sắp xếp đoàn kiến đi sao cho hợp lý để tổng thời gian qua cảnh cây đó là nhỏ nhất.
 Dữ liệu: Vào từ file GROUANTS.INP
 -Dòng đầu là 3 số nguyên dương n, m , l với:
@@ -25,7 +27,7 @@ Ví dụ:
 -----------------------------------------------
 Chú thích: 
 Dựa vào khối lượng tối đa, ta có thể chia là 6 nhóm kiến.
-Nhóm 1 (gồm con kiến thứ 1 và con kiến số 2 có khối lượng tổng cộng là 9 và vận tốc nhỏ nhất là 2 nên thhowif gian đi là 10/2 = 5)
+Nhóm 1 (gồm con kiến thứ 1 và con kiến số 2 có khối lượng tổng cộng là 9 và vận tốc nhỏ nhất là 2 nên thời gian đi là 10/2 = 5)
 Nhóm 2 (chỉ có con kiến số 3 do đi tuần tự nên không thể đi cùng con kiến thứ 4 do khối lượng tổng phải nhỏ hơn hoặc bằng 10, vật con kiến này đi vận tốc là 2 nên thời gian đi là 10/2 = 5)
 Nhóm 3 (gồm kiến 4,5,6 có tổng khối lượng là 7 + 1 + 2 = 9 và vận tốc chậm nhất là 1 nên thời gian đi là 10/1 = 10)
 

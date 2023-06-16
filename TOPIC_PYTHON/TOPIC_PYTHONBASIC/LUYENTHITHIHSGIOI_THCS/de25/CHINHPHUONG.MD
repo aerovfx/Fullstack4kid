@@ -1,5 +1,5 @@
 Đề quốc gia 2020<br>
-Cho một dãy sô A có N phần tử.TÌm số nguyên dương P nhỏ nhất thoả mãn: P là số chính phương và P chia hết cho tất cả các phần tử của dãy số A.<br>
+Cho một dãy sô A có N phần tử.Tìm số nguyên dương P nhỏ nhất thoả mãn: P là số chính phương và P chia hết cho tất cả các phần tử của dãy số A.<br>
 Yêu cầu: In ra phần dư của phép chia khi chia P cho 10^9 + 7<br>
 Dữ liệu: Vào từ thiết bị theo khuôn dạng sau:<br>
 +Dòng đầu tiên chứa số nguyên dương N là số lượng phần tử của dãy số.<br>
