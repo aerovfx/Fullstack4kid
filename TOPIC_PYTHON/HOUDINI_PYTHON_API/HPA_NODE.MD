@@ -36,7 +36,6 @@ system: Mô-đun chứa các chức năng liên quan đến hệ thống và mô
 torus: Biến đại diện cho đối tượng node kiểu Torus.
 velocity: Biến để lưu trữ giá trị vận tốc.
 
-
 # Tạo 1 geo gồm 1 box
 import hou
 obj = hou.node("/obj")
