@@ -10,7 +10,7 @@ for x in loaihoa:
 for i in range(5):
     print(i)
     for x in loaihoa:
-        print("Loai hoa " + str(x) + (" | rep = ") + str(i))
+        print("Loai hoa " + str(x) + (" | replay = ") + str(i))
 
 
 

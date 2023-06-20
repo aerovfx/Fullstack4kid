@@ -39,7 +39,7 @@ velocity: Biến để lưu trữ giá trị vận tốc.
 # Tạo 1 geo gồm 1 box
 import hou
 obj = hou.node("/obj")
-myGeo = obj.createNode("geo", "testGeo")
+myGeo = obj.createNode("geo", "myGeo")
 box = myGeo.createNode("box", "myBox")
  # Tạo color node
 colorNode = box.createNode("color", "myColor")
@@ -47,19 +47,27 @@ myBox.setName("geo") # Đổi tên testGeo thành geo
 
 # Tạo 
 colorNode.setInput(0, myBox, 0) # add colorNode vào myBox
-#Tạo wire node trong myGeo
-wire_node = hou.node("/obj/myGeo").createNode("wire", "myWire")
+#Tạo wire node trong 
+wire_node = hou.node("/obj/geo1").createNode("wire").setInput(0,box)
+
+color_node = hou.node("/obj/geo1").createNode("color").setInput(0,box)
+
+color_node2= hou.node("/obj/geo1").createNode("color","myColor2").setInput(0,wire1)
+
+color_node2.setInput(0,hou.node("../wire1"))
+
 # Nối wire_node vào myBox
 wire_node.setInput(0, myBox, 0)
 # thay đổi thuộc tính radius về 0.05
 wire_node.parm("radius").set(0.05)
 # Tạo một color node mới
-color_node2= hou.node("/obj/myGeo").createNode("color","myColor1")
+color_node2= hou.node("/obj/geo1").createNode("color","myColor1")
 # Kết nối color node vào wire node
 color_node2.setInput(0, wire_node, 0)
 
+
 # Tạo node Merge và gán vào biến merge_node
-merge_node = myGeo.createNode("merge")
+merge_node = myGeo.createNode("merge").setInput(0, hou.node("/obj/myGeo/myColor"))
 
 #  Merge 2 node
 merge_node.setInput(0, hou.node("/obj/myGeo/myColor"))
@@ -67,10 +75,25 @@ merge_node.setInput(1, hou.node("/obj/myGeo/myColor1"))
 
 
 # CÁCH LÀM GỘP
+import hou
+obj = hou.node("/obj")
 box = hou.node("/obj").createNode("geo").createNode("box")
-box.parent().createNode("xform").setFirstInput(box)
-box.parent().createNode("wire").setFirstInput(box)
-box.outputConnections()
+box.parent().createNode("color").setFirstInput(box)
+wire_node = box.parent().createNode("wire")
+
+wire_node.setFirstInput(box)
+# thay đổi thuộc tính radius về 0.05
+wire_node.parm("radius").set(0.05)
+
+
+color_node = hou.node("/obj/geo1").createNode("color").setFirstInput(wire_node)
+
+# Merge 2 node:
+merge_node = hou.node("/obj/geo1").createNode("merge")
+>>> merge_node.setInput(0, hou.node("/obj/geo1/color1"))
+>>> merge_node.setInput(1, hou.node("/obj/geo1/wire1"))
+
+
 
 # Đặt thuộc tính màu sắc
 boxGeo =box.geometry()
