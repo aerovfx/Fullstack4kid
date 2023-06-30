@@ -8,7 +8,7 @@ Số 44
 +Lần 1: 4^2 + 4^2 = 16 + 16 = 32
 +Lần 2: 3^2 + 2^2 = 9 + 4 = 13
 +Lần 3: 1^2 + 3^2 = 1 + 9 = 10
-+Lần 4: 1^1 + 0^2 = 1 + 0 = 1
++Lần 4: 1^2 + 0^2 = 1 + 0 = 1
 Vậy 44 là số hạnh phúc.
 Yêu cầu:
 Dữ liệu vào là file SHOHANHPHUC.INP chứa các số nguyên đương là cácc con số cần xác định.
