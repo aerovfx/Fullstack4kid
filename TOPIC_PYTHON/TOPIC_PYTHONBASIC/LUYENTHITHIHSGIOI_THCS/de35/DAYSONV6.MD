@@ -1,1 +1,0 @@
-Cho một dãy số. Hãy viết chương trình Tìm phần tử nhỏ nhất và phần tử nhỏ thứ hai. Hãy cho biết vị trí đầu tiên của phần tử lớn nhất.
