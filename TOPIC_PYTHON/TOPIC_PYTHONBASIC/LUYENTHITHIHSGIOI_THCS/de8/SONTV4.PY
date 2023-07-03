@@ -3,8 +3,8 @@ from array import *
 from math import *
 
 #Dòng này mở hai tệp tin, một để đọc (tên tệp là "NGUYENTO.INP") và một để ghi (tên tệp là "NGUYENTO.OUT"). Chế độ ghi ("w") được sử dụng cho file2, có nghĩa là nếu tệp đã tồn tại, nó sẽ bị ghi đè.
-file = open("NGUYENTO.INP")
-file2 = open("NGUYENTO.OUT","w")
+file = open("SONT.INP")
+file2 = open("SONT.OUT","w")
 
 #Đây là một hàm nguyento(num) được định nghĩa để kiểm tra xem một số num có phải là số nguyên tố hay không. 
 #Hàm này sử dụng vòng lặp và kiểm tra chia hết để kiểm tra tính nguyên tố củ "num""

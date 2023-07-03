@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 from math import sqrt
 
 def is_prime(num):
@@ -20,7 +10,7 @@ def is_prime(num):
 
 try:
     # Mở tệp đầu vào để đọc
-    with open("NGUYENTO.INP", "r") as input_file:
+    with open("SONT.INP", "r") as input_file:
         n = int(input_file.readline())  # Đọc số lượng phần tử
         data = list(map(int, input_file.readline().split()))  # Đọc dãy số
 
@@ -39,14 +29,14 @@ try:
                 max_prime = num
 
     # Mở tệp đầu ra để ghi
-    with open("NGUYENTO.OUT", "w") as output_file:
+    with open("SONT.OUT", "w") as output_file:
         if max_prime is None:
             output_file.write("Khong tim duoc gia tri")
         else:
             output_file.write(f"{max_prime} {max_count}")
 
 except FileNotFoundError:
-    print("File not found: NGUYENTO.INP")
+    print("File not found: SONT.INP")
 except ValueError:
     print("Invalid data in the file")
 except IOError:

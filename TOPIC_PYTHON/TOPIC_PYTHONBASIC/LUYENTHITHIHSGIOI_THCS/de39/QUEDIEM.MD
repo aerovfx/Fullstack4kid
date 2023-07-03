@@ -1,14 +1,25 @@
-Ngồi nhà quá rỗi, Sơn có ý tưởng dùng các que diêm tạo thành các số hập phân. Một cách đại diện cho 10 chữ số thập phân như sau:
+Với các que diêm Bờm có thể xếp các số nguyên không âm, các chữ số thập phân có cách xếp dưới đây:
 
-1 2 3 4 5 
-6 7 8 9 0
+Số:            1 2 3 4 5 6 7 8 9 0
 
+Xếp số 1 Bờm cần 2 que diêm
+Xếp số 2 Bờm cần 5 que diêm
+Xếp số 3 Bờm cần 5 que diêm
+Xếp số 4 Bờm cần 4 que diêm
+Xếp số 5 Bờm cần 5 que diêm
+Xếp số 6 Bờm cần 6 que diêm
+Xếp số 7 Bờm cần 3 que diêm
+Xếp số 8 Bờm cần 7 que diêm
+Xếp số 9 Bờm cần 6 que diêm
+Xếp số 0 Bờm cần 6 que diêm
 
-Cho N que diêm, Sơn có thể tạo ra một loạt các chữ số. Sơn kinh ngạc phát hiện ra số nhỏ nhất và lớn nhất trong số đó có thể tạo được bằng cách sử dụng tất cả các que diêm của Sơn.
+Bờm có N que diêm và muốn xếp diêm thành bộ số chỉ giờ dạng hh:mm: ss
+(chuẩn 24 giờ) sao cho dùng hết đúng N que diêm và thời điểm biễu diễn được là muộn nhất trong ngày (dấu ": " là tự động thêm vào không tốn que diêm nào để biểu diễn)
 
-Yêu cầu: Xác định số nhỏ nhất và lớn nhất mà Sơn có thể tạo ra.
-
-Dữ liệu vào: Đọc từ file văn bản MATCH.INP có cấu trúc như sau:
-
-Dòng đầu tiên là số test K (1<K<=100)
-K dòng tiếp theo, mỗi test gồm một dòng chứa số nguyên n (2<=n<=100) là số que diêm
+Dữ liệu vào trong file văn bản QUEDIEM.INP chứa số nguyên N ( 1 <= N <= 42)
+Dữ liệu ra trong file văn bản QUEDIEM.OUT ghi số nguyên -1 nếu không có cách sắp xếp ngược lại thì ghi thời điểm biểu diễn được theo điện dạng hh:mm:ss
+Ví dụ:
+QUEDIEM.INP
+12
+QUEDIEM.OUT
+11:11:11

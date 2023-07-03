@@ -14,11 +14,11 @@ def ptb2(a, b, c):
 
 
 # Đọc dữ liệu từ tệp PTB2.INP
-with open('ptb2.inp', 'r') as file:
+with open('PTB2.INP', 'r') as file:
     lines = file.readlines()
 
 # Giải từng phương trình bậc 2 và ghi kết quả vào tệp PTB2.OUT
-with open('ptb2.out', 'w') as file:
+with open('PTB2.OUT', 'w') as file:
     for line in lines:
         a, b, c = map(int, line.strip().split())
         solutions = ptb2(a, b, c)
