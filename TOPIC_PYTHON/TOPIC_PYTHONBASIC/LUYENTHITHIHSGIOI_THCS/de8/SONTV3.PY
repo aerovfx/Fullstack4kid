@@ -1,7 +1,7 @@
 from array import *
 from math import *
-file = open('NGUYENTO.INP')
-file2 = open('NGUYENTO.OUT', 'w')
+file = open('SONT.INP')
+file2 = open('SONT.OUT', 'w')
 def nguyento(num):
     if num == 1:
         return False

@@ -1,6 +1,6 @@
 # Hàm loại bỏ phần tử trùng nhau
 def remove_dup(danhsach):
-    return list(set(danhsach))
+    return list(set(danhsach)) # hàm set() được sử dụng để tạo một tập hợp (set) chứa các phần tử duy nhất từ danh sách "danhsach"
 
 # Nhập danh sách từ người dùng
 danhsach = input("Nhập danh sách, các phần tử cách nhau bằng dấu phẩy: ").split(",")
