@@ -5,16 +5,29 @@ import { increaseCounter, decreaseCounter } from './redux/action/counterAction';
 // import MyComponent from './components/MyComponent';
 // import MySecondComponent from './components/MySecondComponent';
 //import VComponent from './components/VComponent';
-import Tong from './components/Tong';
+import Input_ArrowFunction from './components/Input_ArrowFunction';
+import React from 'react';
+// Class function
+// class App extends React.Component{
 
+//   render(){
+//     return (
+//       <div>
+//         <Input_ArrowFunction></Input_ArrowFunction>
+//       </div>      
+//     )
+//   }
+// }
 const App = () => {
   const count = useSelector(state => state.counter.count);
   const dispatch = useDispatch();
 
   return (
     <div>
-      <Tong></Tong>
+      <Input_ArrowFunction></Input_ArrowFunction>
     </div>
+  )
+}
 
 
 
@@ -28,7 +41,6 @@ const App = () => {
         
     //   </header>
     // </div>
-  );
-}
+
 
 export default App;
