@@ -15,4 +15,4 @@ class TestArrowFunction extends React.Component {
     }
 }
 
-export default Input_ArrowFunction;
+export default TestArrowFunction;
