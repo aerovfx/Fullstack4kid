@@ -1,0 +1,1 @@
+Cho dãy số gồm n số nguyên. Tìm dãy con có tổng lớn nhất
