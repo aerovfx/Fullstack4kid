@@ -33,7 +33,7 @@
 // .Map()
 // function show(){
 //     const myArray = ["Python","Javascript", "R", "C", "C++", "C#"];
-//     const myList = myArray.map((item) => `<li>${item}</li>`);
+//     const myList = myArray.map((item) => `${item}<br/>`);
 //     document.getElementById("show").innerHTML = myList;
 // }
 
@@ -48,13 +48,13 @@
 //     document.write(myArray, newArray);
 // }
 
-//.Filter()
-function show(){
-    const myArray = ["Python","Javascript", "R", "C", "C++", "C#"];
-    const result = myArray.filter(checkLevel);
+// //.Filter()
+// function show(){
+//     const myArray = ["Python","Javascript", "R", "C", "C++", "C#"];
+//     const result = myArray.filter(checkLevel);
 
-    function checkLevel(checkLevel){
-        return checkLevel != "Python"
-    }
-    document.getElementById("show").innerHTML = result;
-}
+//     function checkLevel(checkLevel){
+//         return checkLevel != "Python"
+//     }
+//     document.getElementById("show").innerHTML = result;
+// }
