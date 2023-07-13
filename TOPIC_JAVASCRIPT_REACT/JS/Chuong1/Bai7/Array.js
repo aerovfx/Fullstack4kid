@@ -1,60 +1,69 @@
+// // Array
 // function show(){
-//     const myArray = ["Python","Javascript", "R", "C", "C++", "C#"];
-//     const newArrayLen = myArray.length;
-//     //loop for
-//     let arrValue = "<ul>";
-//     for (let i = 0; i < newArrayLen; i++ ){
-//         arrValue += "<li>" + myArray[i] + "</li>";
-
-//     }
-//     arrValue += "</ul>"
-
-
-
-//     document.getElementById("show").innerHTML = arrValue;
-// }
-// for Each
-// function show(){
-//     const myArray = ["Python","Javascript", "R", "C", "C++", "C#"];
-//     //loop for
-//     let arrValue = "<ul>";
-//     myArray.forEach(myFunction);
-//     arrValue += "</ul>"
+//     const myArray = ["Python", "Javascript", "Java", "R", "C", "C#", "C++"];
+// //    const newArrayLen = myArray.length;
+//     myArray.push("Pascal");
+//     document.getElementById("show").innerHTML = myArray;
     
+// }
+
+// function show(){
+//     const myArray = ["Python", "Javascript", "Java", "R", "C", "C#", "C++"];
+//     myArray.push("Pascal");
+//     const newArrayLen = myArray.length;
+    
+//     //LOOP
+//     let arrayValue = "<ul>";
+//     for (let i = 0; i < newArrayLen; i++){
+//         arrayValue += "<li>" + myArray[i] + "</li>";
+//     }
+//     arrayValue += "</ul>"
+
+
+//     document.getElementById("show").innerHTML = arrayValue;
+    
+// }
+
+// function show(){
+//     const myArray = ["Python", "Javascript", "Java", "R", "C", "C#", "C++"];
+//     myArray.push("Pascal");
+//     // const newArrayLen = myArray.length;
+    
+//     //LOOP
+//     let arrayValue = "<ul>";
+//     myArray.forEach(myFunction);
+//     arrayValue += "</ul>"
 //     function myFunction(value) {
-//         arrValue += "<li>" + value + "</li>"
+//         arrayValue += "<li>" + value + "</li>";
 //     }
 
 
-
-//     document.getElementById("show").innerHTML = arrValue;
-// }
-
-// .Map()
-// function show(){
-//     const myArray = ["Python","Javascript", "R", "C", "C++", "C#"];
-//     const myList = myArray.map((item) => `${item}<br/>`);
-//     document.getElementById("show").innerHTML = myList;
+//     document.getElementById("show").innerHTML = arrayValue;
+    
 // }
 
 // function show(){
-//     const myArray = [1,2,3,4,5,6];
-//     const myList = myArray.map((item) => item *2 );
-//     // const item = myArray[[i] * 2];
-//     newArray = [];
-//     newArray.push(myList);
-//     // console.log(myArray, newArray)
-//     // document.getElementById("show").innerHTML = (myArray, newArray);
-//     document.write(myArray, newArray);
+//     const myArray = ["Python", "Javascript", "Java", "R", "C", "C#", "C++"];
+//     myArray.push("Pascal");
+
+//     const newArray = myArray.map((item) => `<li>${item}</li>`);
+
+
+
+
+
+//     document.getElementById("show").innerHTML = newArray;
+    
 // }
 
-// //.Filter()
-// function show(){
-//     const myArray = ["Python","Javascript", "R", "C", "C++", "C#"];
-//     const result = myArray.filter(checkLevel);
+function show(){
+    const myArray = ["Python", "Javascript", "Java", "R", "C", "C#", "C++"];
+    myArray.push("Pascal");
+    const result = myArray.filter(checkList);
 
-//     function checkLevel(checkLevel){
-//         return checkLevel != "Python"
-//     }
-//     document.getElementById("show").innerHTML = result;
-// }
+    function checkList(checkList){
+        return checkList
+        != "Python"
+    }
+    document.getElementById("show").innerHTML = result;
+}
