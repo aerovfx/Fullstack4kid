@@ -1,30 +1,28 @@
-def maxBonusValue(m, n, w, h, a, b):
-    # Tạo ma trận dp với kích thước (m+1)x(n+1) và khởi tạo giá trị ban đầu là 0
-    dp = [[0] * (n+1) for _ in range(m+1)]
-    
-    # Duyệt qua từng ô của ma trận dp và tính giá trị tối đa
+def find_maximum_reward(m, n, w, h, a, b):
+    # Tạo ma trận tổng tích lũy
+    prefix_sum = [[0] * (n + 1) for _ in range(m + 1)]
     for i in range(1, m + 1):
         for j in range(1, n + 1):
-            # Tính tổng giá trị của bảng con kích thước wxh, có gốc tại ô (i, j)
-            total = 0
-            for x in range(i, i+ w):
-                for y in range(j, j+ h):
-                    if x <= m and y <= n:  # Kiểm tra phạm vi của x và y
-                        total += a[x-1] + b[y-1]
-            # Cập nhật giá trị tối đa cho ô (i, j)
-            dp[i][j] = max(dp[i][j-1], dp[i-1][j], dp[i-1][j-1] + total)
-    
-    return dp[m][n]
+            prefix_sum[i][j] = prefix_sum[i][j - 1] + prefix_sum[i - 1][j] - prefix_sum[i - 1][j - 1] + a[i - 1] + b[j - 1]
+
+    max_reward = 0
+
+    # Duyệt qua tất cả các khung hình có kích thước w x h
+    for i in range(m - w + 1):
+        for j in range(n - h + 1):
+            # Tính tổng giá trị của khung hình hiện tại
+            reward = prefix_sum[i + w][j + h] - prefix_sum[i + w][j] - prefix_sum[i][j + h] + prefix_sum[i][j]
+            max_reward = max(max_reward, reward)
+
+    return max_reward
 
 # Đọc dữ liệu từ file
-with open("BONUS.INP", "r") as file:
-    m, n, w, h = map(int, file.readline().strip().split())  # Đọc các giá trị m, n, w, h
-    a = list(map(int, file.readline().strip().split()))  # Đọc danh sách giá trị a
-    b = list(map(int, file.readline().strip().split()))  # Đọc danh sách giá trị b
+with open('BONUS.INP', 'r') as f:
+    m, n, w, h = map(int, f.readline().split())
+    a = list(map(int, f.readline().split()))
+    b = list(map(int, f.readline().split()))
 
-# Tính tổng giá trị lớn nhất mà An có thể nhận được
-result = maxBonusValue(m, n, w, h, a, b)
-
-# Ghi kết quả vào file
-with open("BONUS.OUT", "w") as file:
-    file.write(str(result))  # Ghi kết quả vào file "BONUS.OUT"
+# Gọi hàm tìm giá trị lớn nhất và lưu kết quả vào file
+max_reward = find_maximum_reward(m, n, w, h, a, b)
+with open('BONUS.OUT', 'w') as f:
+    f.write(str(max_reward))
