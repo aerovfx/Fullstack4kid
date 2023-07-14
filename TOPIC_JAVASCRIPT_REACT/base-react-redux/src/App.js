@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { increaseCounter, decreaseCounter } from './redux/action/counterAction';
-// import MyComponent from './components/MyComponent';
+import MyComponent from './components/MyComponent';
 // import MySecondComponent from './components/MySecondComponent';
 //import VComponent from './components/VComponent';
 import Input_ArrowFunction from './components/Input_ArrowFunction';
@@ -24,7 +24,8 @@ const App = () => {
 
   return (
     <div>
-      <Input_ArrowFunction></Input_ArrowFunction>
+      <MyComponent />
+      
     </div>
   )
 }
