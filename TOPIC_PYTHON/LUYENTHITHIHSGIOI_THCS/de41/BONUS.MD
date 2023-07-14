@@ -34,5 +34,5 @@ Bảng con mà An chọn<br/>
 3 3<br/>
 
 Xem hình <br/>
-<img width="375" alt="Screenshot 2023-07-10 at 07 24 26" src="https://github.com/aerovfx/Fullstack4kid/assets/109997053/82acfaa7-336d-43db-a3ee-e3e8f9decd18">
+<img width="627" alt="Screenshot 2023-07-14 at 19 11 48" src="https://github.com/aerovfx/Fullstack4kid/assets/109997053/39a2826e-b188-4f13-8abc-d6b7d5532b8f">
 
