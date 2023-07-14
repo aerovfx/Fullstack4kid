@@ -1,5 +1,7 @@
 Cú pháp trong Python là một tập hợp các quy tắc và nguyên tắc được sử dụng để viết và biên dịch các chương trình Python. Cú pháp chính xác là rất quan trọng để chương trình của bạn hoạt động đúng và tránh các lỗi cú pháp. Dưới đây là một số thông tin cơ bản về cú pháp trong Python: <br/>
 
+Sử dụng phím tắt CMD + / để chú thích 
+
 1. Dòng lệnh và khối mã: Python sử dụng thụt lề để đánh dấu các khối mã thay vì sử dụng dấu ngoặc nhọn {}. Điều này đảm bảo tính nhất quán và đồng nhất của mã nguồn Python. <br/>
 
 

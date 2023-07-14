@@ -1,1 +1,0 @@
-Kiểm tra xem một xâu có phải là chuỗi Fibonacci hay không: Xác định xem một xâu cho trước có phải là chuỗi Fibonacci hay không.

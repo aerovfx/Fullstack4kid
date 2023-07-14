@@ -13,3 +13,4 @@ color_attribs = geo.addAttrib(hou.attribType.Point, "Cd", red)  # Thêm thuộc 
 for point in geo.points():  # Lặp qua từng điểm trong geometry
     if point.number() % 2 == 0:  # Kiểm tra điểm có số thứ tự chẵn hay không
         point.setAttribValue("Cd", green)  # Nếu điểm có số thứ tự chẵn, gán giá trị màu xanh lá cây cho thuộc tính "Cd" của điểm đó
+
