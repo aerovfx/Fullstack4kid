@@ -1,4 +1,4 @@
-Tiêu đề: Hướng dẫn Biến trong Python: Khai báo, Gán giá trị và Sử dụng
+Hướng dẫn Biến trong Python: Khai báo, Gán giá trị và Sử dụng
 
 Mô tả: Trong video này, chúng ta sẽ khám phá khái niệm và cách sử dụng biến trong ngôn ngữ lập trình Python. Từ khai báo biến, gán giá trị cho biến, đến cách sử dụng biến trong các phép toán và các tình huống khác, video sẽ giúp bạn hiểu rõ và tự tin với việc làm việc với biến trong Python.<br/>
 
