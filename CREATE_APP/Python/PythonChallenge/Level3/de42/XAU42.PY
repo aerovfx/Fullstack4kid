@@ -1,41 +1,38 @@
-def find_next_permutation(s):
-    n = len(s)
-
-    # Tìm vị trí i sao cho s[i] < s[i+1]
-    i = n - 2
-    while i >= 0 and s[i] >= s[i+1]:
-        i -= 1
-
-    # Nếu không tìm thấy, tức là s đã là xâu lớn nhất
-    if i == -1:
-        return s
-
-    # Tìm vị trí j sao cho s[j] là số nhỏ nhất lớn hơn s[i]
-    j = n - 1
-    while s[j] <= s[i]:
-        j -= 1
-
-    # Hoán đổi s[i] và s[j]
-    s[i], s[j] = s[j], s[i]
-
-    # Đảo ngược đoạn cuối cùng của xâu
-    left = i + 1
-    right = n - 1
-    while left < right:
-        s[left], s[right] = s[right], s[left]
-        left += 1
-        right -= 1
-
-    return s
+def find_next_string(S):
+    # Tìm vị trí pos
+    pos = -1
+    for i in range(len(S)-2, -1, -1):
+        if S[i] < S[i+1]:
+            pos = i
+            break
+    
+    if pos == -1:
+        # Xâu S đã là số lớn nhất có thể có
+        return S
+    
+    # Tìm vị trí next_pos
+    next_pos = pos + 1
+    for i in range(pos + 1, len(S)):
+        if S[i] > S[pos] and S[i] < S[next_pos]:
+            next_pos = i
+    
+    # Hoán đổi kí tự tại vị trí pos và next_pos
+    S = list(S)
+    S[pos], S[next_pos] = S[next_pos], S[pos]
+    
+    # Sắp xếp các kí tự từ pos+1 đến cuối xâu S
+    S[pos+1:] = sorted(S[pos+1:])
+    
+    return ''.join(S)
 
 
-# Đọc dữ liệu vào từ file XAU42.INP
+# Đọc xâu S từ tệp tin XAU42.INP
 with open('XAU42.INP', 'r') as f:
-    s = list(f.readline().strip())
+    S = f.read().strip()
 
-# Tìm xâu S1
-s1 = find_next_permutation(s)
+# Tìm xâu S1 bằng cách hoán vị các kí tự số trong xâu S
+S1 = find_next_string(S)
 
-# Ghi kết quả vào file XAU42.OUT
+# Ghi kết quả vào tệp tin XAU42.OUT
 with open('XAU42.OUT', 'w') as f:
-    f.write(''.join(s1))
+    f.write(S1)
