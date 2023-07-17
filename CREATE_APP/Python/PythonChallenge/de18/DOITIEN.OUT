@@ -1,0 +1,15 @@
+CHUONG TRINH DOI TIEN:
+Nhap so tien can doi n = 450000
+Nhap loai tien thu 1: 100000
+Nhap loai tien thu 2: 200000
+Nhap loai tien thu 3: 50000
+Loai100000  Loai200000   Loai 50000
+       0           0         9
+       0           1         5
+       0           2         1
+       1           0         7
+       1           1         3
+       2           0         5
+       2           1         1
+       3           0         3
+       4           0         1
