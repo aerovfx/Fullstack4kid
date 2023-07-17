@@ -1,0 +1,1 @@
+cho môtj dãy kí tự. Hãy viết chương trình tách dãy trên thành hai nữa, nữa đầu gồm các số, nữa sau là các chữ cái. Sắp xếp theo thứ tự nữa đầu giảm dần nữa đầu tăng dần.
