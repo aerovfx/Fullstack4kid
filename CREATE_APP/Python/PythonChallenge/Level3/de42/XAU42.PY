@@ -1,41 +1,31 @@
-def find_next_permutation(s):
-    n = len(s)
+# Đọc xâu S từ tệp tin XAU42.INP
+with open('XAU42.INP', 'r') as file_in:
+    S = file_in.readline().strip()
 
-    # Tìm vị trí i sao cho s[i] < s[i+1]
-    i = n - 2
-    while i >= 0 and s[i] >= s[i+1]:
-        i -= 1
+# Tìm vị trí pos
+pos = -1
+for i in range(len(S) - 1):
+    if S[i] < S[i+1]:
+        pos = i
 
-    # Nếu không tìm thấy, tức là s đã là xâu lớn nhất
-    if i == -1:
-        return s
+if pos == -1:
+    # Ghi "IMPOSSIBLE" vào tệp tin XAU42.OUT
+    with open('XAU42.OUT', 'w') as file_out:
+        file_out.write("IMPOSSIBLE")
+else:
+    # Tìm vị trí max_pos
+    max_pos = -1
+    for j in range(pos+1, len(S)):
+        if S[j] > S[pos]:
+            max_pos = j
 
-    # Tìm vị trí j sao cho s[j] là số nhỏ nhất lớn hơn s[i]
-    j = n - 1
-    while s[j] <= s[i]:
-        j -= 1
+    # Hoán vị S[pos] và S[max_pos]
+    S = list(S)
+    S[pos], S[max_pos] = S[max_pos], S[pos]
 
-    # Hoán đổi s[i] và s[j]
-    s[i], s[j] = s[j], s[i]
+    # Đảo ngược các phần tử từ pos+1 đến cuối của xâu S
+    S = S[:pos+1] + S[pos+1:][::-1]
 
-    # Đảo ngược đoạn cuối cùng của xâu
-    left = i + 1
-    right = n - 1
-    while left < right:
-        s[left], s[right] = s[right], s[left]
-        left += 1
-        right -= 1
-
-    return s
-
-
-# Đọc dữ liệu vào từ file XAU42.INP
-with open('XAU42.INP', 'r') as f:
-    s = list(f.readline().strip())
-
-# Tìm xâu S1
-s1 = find_next_permutation(s)
-
-# Ghi kết quả vào file XAU42.OUT
-with open('XAU42.OUT', 'w') as f:
-    f.write(''.join(s1))
+    # Ghi xâu S vào tệp tin XAU42.OUT
+    with open('XAU42.OUT', 'w') as file_out:
+        file_out.write("".join(S))

@@ -11,6 +11,6 @@ Kết quả: Ghi trong tập tin XAU42.OUT, gồm 1 dòng ghi kết quả vừa 
 Ví dụ:<br/>
 
 Dữ liệu vào: (XAU42.INP)    <br/>
-‘1234’ <br/>
+1234 <br/>
 Kết quả: (XAU42.OUT)<br/>
-‘1324’<br/>
+1243<br/>
