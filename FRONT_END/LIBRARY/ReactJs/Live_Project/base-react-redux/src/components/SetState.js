@@ -26,4 +26,4 @@ class Tong extends React.Component {
         )
     }
 }
-export default Tong;
+export default SetState;

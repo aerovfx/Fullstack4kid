@@ -1,6 +1,6 @@
 import React from 'react';
 
-class TestArrowFunction extends React.Component {
+class ArrowFunction extends React.Component {
     render() {
         const a = 2;
         const b = 3;
@@ -15,4 +15,4 @@ class TestArrowFunction extends React.Component {
     }
 }
 
-export default TestArrowFunction;
+export default ArrowFunction;
