@@ -77,18 +77,3 @@ Tóm tắt
 Hai mô-đun này chắc là đủ để giúp bạn thực hiện các phép toán thông thường trên cả số thập phân và phân số. Như trình bày trong phần cuối, bạn có thể sử dụng các mô-đun này cùng với mô-đun math để tính toán giá trị của tất cả các kiểu hàm toán học theo định dạng mà bạn mong muốn.
 
 Trong hướng dẫn tiếp theo của loạt bài này, bạn sẽ được tìm hiểu về mô-đun random trong Python.
-
-Did you find this post useful?
- Yes
- No
-Want a weekly email summary?
-Subscribe below and we’ll send you a weekly email summary of all new Code tutorials. Never miss out on learning about the next big thing.
-Sign up
-Monty Shokeen
-Monty Shokeen
-Freelancer, Instructor
-I am a full-stack developer who also loves to write tutorials. After trying out a bunch of things till my second year of college, I decided to work on my web development skills. Starting with just HTML and CSS, I kept moving forward and gained experience in PHP, JavaScript, and Python.
-
-I usually spend my free time either working on some side projects or traveling around.
-
-Advertisement

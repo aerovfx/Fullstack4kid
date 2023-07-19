@@ -1,4 +1,4 @@
-giải thuật cho bài toán:<br/>
+Giải thuật cho bài toán:<br/>
 
 Đọc dữ liệu từ tệp "TBC.INP":<br/>
 Khởi tạo một danh sách rỗng data.<br/>
