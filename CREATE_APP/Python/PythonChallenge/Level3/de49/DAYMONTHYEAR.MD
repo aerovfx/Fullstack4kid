@@ -17,16 +17,3 @@ Ví dụ:
 Dữ liệu: Nhập vào số N từ bàn phím.
 
 Kết quả: Đưa ra màn hình các ngày tháng năm tương ứng với N hoặc thông báo là KHONG nếu N không phải là thông tin về một ngày tháng nào cả.
-
-Ví dụ:
-
-Giá trị của N	Thông báo ra màn hình tương ứng
-1111
-21290
-
-29205
-
-1-1-2011
-2-12-2090 HOAC 21-2-2090
-
-KHONG
