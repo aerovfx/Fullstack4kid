@@ -1,9 +1,7 @@
 function MyComponent(){
     return (
       <div>
-        This is my first component;
-        {/* { Math.rand() }; */}
-
+        `This is my first component { Math.random() };
       </div>
     )
   
