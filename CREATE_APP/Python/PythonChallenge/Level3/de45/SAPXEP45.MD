@@ -21,12 +21,12 @@ Kết quả ra: Xuất ra màn hình
 - Dòng thứ nhất là dãy số được sắp xếp giảm dần.
 - Dòng thứ hai là dãy số được sắp xếp giảm dần đã được chèn thêm số nguyên K
 Ví dụ:
-Dữ liệu vào file văn bản: SAPXEP45.INP
+Dữ liệu vào nhập từ bàn phím khi được hỏi
 6
 6 11 8 2 9 34
 12
 
-Kết quả ra file văn bản: SAPXEP45.OUT
+Kết quả ra màn hình
 34 11 9 8 6 2
 34 12 11 9 8 6 2
 

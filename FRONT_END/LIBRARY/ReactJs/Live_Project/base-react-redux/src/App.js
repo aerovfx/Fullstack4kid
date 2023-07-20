@@ -7,6 +7,7 @@ import MyComponent from './components/MyComponent';
 //import VComponent from './components/VComponent';
 import Input_ArrowFunction from './components/Input_ArrowFunction';
 import React from 'react';
+
 // Class function
 // class App extends React.Component{
 
@@ -18,6 +19,7 @@ import React from 'react';
 //     )
 //   }
 // }
+
 const App = () => {
   const count = useSelector(state => state.counter.count);
   const dispatch = useDispatch();
@@ -29,8 +31,6 @@ const App = () => {
     </div>
   )
 }
-
-
 
 
     // <div className="App">
