@@ -13,12 +13,14 @@ class MySecondComponent extends React.Component {
 
     };
 
-    clickChuot(event){
+    clickChuot= (event) => {
         console.log(event);
+        console.log(this.state.age)
     }
 
-    onMouse(event){
+    onMouse = (event) => {
         console.log(event.pageX);
+        console.log(this.state.name)
     }
 
     render (){
@@ -27,7 +29,7 @@ class MySecondComponent extends React.Component {
                 My second component<br/>
                 My name is {this.state.name} and i'm living in {this.state.adddress}<br/>
                 I'm {this.state.age} years old.<br/>
-               <button onClick = {this.clickChuot}>Click me</button>
+               <button onClick = {(event) => {this.clickChuot(event)}}>Click me</button>
                 <button onMouseOver ={this.onMouse}>Hover me</button>
             </div>
         );
