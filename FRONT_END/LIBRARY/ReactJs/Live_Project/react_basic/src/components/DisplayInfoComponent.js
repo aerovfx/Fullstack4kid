@@ -6,16 +6,26 @@ import React from 'react';
 class DisplayInfoComponent extends React.Component {
     render (){
         console.log(this.props)
+        const { ArrayUser } = this.props;
+        // const { age, name } = this.props; //Object
         //Props truyen data 
         // tu Component cha la MyComponent 
         // xuong component con la DisplayInfoComponent
         return (
             <div>
-               
-                <div>My name's {this.props.name}</div>
-                <div>My address's {this.props.address}</div>
-                <div>My age's {this.props.age}</div>
-        
+                { ArrayUser.map((user) => {
+                    console.log(user)
+                    return (
+                        <div>
+                            <div>My name's {user.name}</div>
+                            <div>My address's {user.address}</div>
+                            <div>My age's {user.age}</div>
+                            <hr/>
+                        </div>
+
+                    )
+                    
+                })}        
             </div>
         );
 
