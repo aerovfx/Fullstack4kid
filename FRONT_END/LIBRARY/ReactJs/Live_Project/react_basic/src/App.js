@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MyComponent from './components/MyComponent';
-import MySecondComponent from './components/MySecondComponent';
+
 
 function App() {
   return (
@@ -10,8 +10,7 @@ function App() {
       My name's VietChung
       <hr/>
       <MyComponent />
-      <MySecondComponent />
-      
+
     </div>
   );
 }

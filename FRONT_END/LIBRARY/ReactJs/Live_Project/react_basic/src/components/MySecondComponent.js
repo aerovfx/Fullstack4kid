@@ -46,6 +46,7 @@ class MySecondComponent extends React.Component {
                 I'm {this.state.age} years old.<br/>
                 <button onClick = {(event) => {this.clickChuot(event)}}>Click me</button>
                 <button onMouseOver ={(event) => {this.onMouse(event)}}>Hover me</button>
+
             </div>
         );
 

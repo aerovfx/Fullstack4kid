@@ -44,9 +44,11 @@ class FormComponent extends React.Component {
     }
 
     render (){
+        // Props
+
         return (
             <div>
-                <hr/>
+                
                 Form<br/>
                 My name is {this.state.name} and i'm living in {this.state.adddress}<br/>
                 I'm {this.state.age} years old.<br/>
