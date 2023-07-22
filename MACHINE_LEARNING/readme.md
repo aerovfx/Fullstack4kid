@@ -1,36 +1,37 @@
-In the curriculum, we cover a large number of important data science and machine learning topics, such as:
 
-Data Cleaning and Pre-Processing
-Data Exploration and Visualisation
-Linear Regression
-Multivariable Regression
-Optimisation Algorithms and Gradient Descent
-Naive Bayes Classification
-Descriptive Statistics and Probability Theory
-Neural Networks and Deep Learning
-Model Evaluation and Analysis
-Serving a Tensorflow Model
-Throughout the course, we cover all the tools used by data scientists and machine learning experts, including:
+Data Cleaning and Pre-Processing<br/>
+Data Exploration and Visualisation<br/>
+Linear Regression<br/>
+Multivariable Regression<br/>
+Optimisation Algorithms and Gradient Descent<br/>
+Naive Bayes Classification<br/>
+Descriptive Statistics and Probability Theory<br/>
+Neural Networks and Deep Learning<br/>
+Model Evaluation and Analysis<br/>
+Serving a Tensorflow Model<br/>
 
-Python 3
-Tensorflow
-Pandas
-Numpy
-Scikit Learn
-Keras
-Matplotlib
-Seaborn
-SciPy
-SymPy
-By the end of this course, you will be fluently programming in Python and be ready to tackle any data science project. We’ll be covering all of these Python programming concepts:
 
-Data Types and Variables
-String Manipulation
-Functions
-Objects
-Lists, Tuples and Dictionaries
-Loops and Iterators
-Conditionals and Control Flow
-Generator Functions
-Context Managers and Name Scoping
-Error Handling
+
+Python 3<br/>
+Tensorflow<br/>
+Pandas<br/>
+Numpy<br/>
+Scikit Learn<br/>
+Keras<br/>
+Matplotlib<br/>
+Seaborn<br/>
+SciPy<br/>
+SymPy<br/>
+
+Python programming concepts:<br/>
+
+Data Types and Variables<br/>
+String Manipulation<br/>
+Functions<br/>
+Objects<br/>
+Lists, Tuples and Dictionaries<br/>
+Loops and Iterators<br/>
+Conditionals and Control Flow<br/>
+Generator Functions<br/>
+Context Managers and Name Scoping<br/>
+Error Handling<br/>
