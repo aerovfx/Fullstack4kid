@@ -13,10 +13,10 @@ class DisplayInfoComponent extends React.Component {
         // xuong component con la DisplayInfoComponent
         return (
             <div>
-                { ArrayUser.map((user) => {
-                    console.log(user)
+                { ArrayUser.map((user, index) => {
+                    // console.log(user)
                     return (
-                        <div>
+                        <div key ={user.id}>
                             <div>My name's {user.name}</div>
                             <div>My address's {user.address}</div>
                             <div>My age's {user.age}</div>
