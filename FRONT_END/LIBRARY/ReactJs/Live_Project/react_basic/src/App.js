@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './components/Header/HeaderComp';
 // import MyComponent from './components/MyComponent';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 
 function App() {
   return (
