@@ -2,23 +2,30 @@
 import './App.css';
 import Header from './components/Header/HeaderComp';
 // import MyComponent from './components/MyComponent';
-import { Link } from 'react-router-dom';
-
+import { Outlet, Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <div>
-        test router
+    <div className='app-container'>
+      <div className='header-container'>
+        <Header />
+
       </div>
-      <button>
-      <Link to="/users">User Page</Link>  
+
+      <div className='sidenav-container'>
+
+      </div>
+
+      <div className='main-container'>
+
+
+      </div>
+      <div className='app-container'>
+        <Outlet />
+       
+      </div>
+    
       
-      </button>
-      <button>
-      <Link to="/admins"> Admin Page</Link> 
-      </button>
     
     </div>
   );
