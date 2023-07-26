@@ -13,11 +13,11 @@ function App() {
         test router
       </div>
       <button>
-      <Link to="/users">User Page </Link>  
+      <Link to="/users">User Page</Link>  
       
       </button>
       <button>
-      <Link to="/admins">Admin Page </Link>   
+      <Link to="/admins"> Admin Page</Link> 
       </button>
     
     </div>
