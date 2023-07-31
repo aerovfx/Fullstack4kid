@@ -1,14 +1,19 @@
 import math
-def can_bac_hai(danh_sach):
-    a = math.sqrt(danh_sach)
-    return a
 
-# Đọc dữ liệu từ file "BAI12":
+def can_bac_hai(n):
+    n = math.sqrt(n)
+    return n
+
+#Đọc dữ liệu từ file "BAI12.INP":
 with open('BAI12.INP', 'r') as file:
     danh_sach = list(map(int, file.readline().split(",")))
-for i in range(1, danh_sach):
-    
-    
-#Xuất dữ liệu ra file "BAI12":
-with open('BAI12.OUT','w') as file:
-    file.write(str(danh_sach))
+
+#Tính căn bậc hai cho từng phần tử trong danh_sách:
+for i in range(len(danh_sach)):
+    danh_sach[i] = round(can_bac_hai(danh_sach[i]),2)
+
+#Xuất dữ liệu ra file "BAI12.OUT":
+with open('BAI12.OUT', 'w') as file:
+    for gia_tri in danh_sach:
+        file.write(str(gia_tri) + "\n")
+
