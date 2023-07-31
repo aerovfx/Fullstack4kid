@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
+
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <NavLink to="/" className='navbar-brand'>May's store</NavLink> 
