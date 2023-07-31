@@ -7,3 +7,4 @@ def giai_thua(n):
     return n * giai_thua(n-1)  # gt = n * (n-1)
 #In ra kết quả
 print (giai_thua(n))
+
