@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-def is_sorted(arr):
-    for i in range(1, len(arr)):
-        if arr[i] < arr[i-1]:
-            return False
-    return True
-
-# Nhập danh sách từ người dùng
-nums = input("Nhập danh sách các số nguyên, cách nhau bởi dấu cách: ").split()
-nums = [int(num) for num in nums]
-
-# Kiểm tra và in kết quả
-if is_sorted(nums):
-=======
 # Hàm kiểm tra danh sách có phần tử tăng dần, nếu tăng dần thì trả về kết quả True và ngược lại.
 def kiem_tra_tang_dan(danh_sach):
     for i in range(len(danh_sach) - 1):
@@ -29,7 +15,6 @@ danh_sach = [1, 2, 4, 5, 6]
 
 # Kiểm tra và in kết quả
 if kiem_tra_tang_dan(danh_sach):
->>>>>>> 52f0aee02b18761e019da96d0ddf5998068ec9b0
     print("Danh sách tăng dần")
 else:
     print("Danh sách không tăng dần")

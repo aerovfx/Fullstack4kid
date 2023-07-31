@@ -16,9 +16,6 @@ for i in range(len(numbers)):
 if not inserted:
     numbers.append(K)
 
-# In dãy số đã xếp lại giảm dần
-print("Dãy số đã xếp lại giảm dần:")
-print(" ".join(map(str, numbers)))
 
 # In dãy số đã xếp lại giảm dần và chèn thêm số nguyên K
 print("Dãy số đã xếp lại giảm dần và chèn thêm số nguyên K:")
