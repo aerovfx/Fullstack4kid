@@ -19,7 +19,7 @@ Kết quả ra ở file văn bản có tên BCNN.OUT
 - Dòng thứ hai in trên một dòng hai số tự nhiên x, y, mỗi số cách nhau một khoảng trắng. Trong đó x là tử số và y là mẫu số của phân số tối giản tìm được.
 
 Ví dụ:
-Dữ liệu vào
+Dữ liệu vào BCNN.INP
 4 12
 
 Kết quả ra BCNN.OUT
