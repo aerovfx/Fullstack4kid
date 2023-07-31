@@ -1,4 +1,4 @@
-#Gan biến tuổi = 0
+#Gán biến tuổi = 0
 tuoi = 0
 #Nhập vào năm sinh từ bàn phím
 n=int(input('Nhập vào năm sinh của bạn:'))
