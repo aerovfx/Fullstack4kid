@@ -43,8 +43,8 @@ def thongson():
     print('tổng số nguyên dương chẵn là: ',count)
     print('số âm lớn nhất là: ',chisoamln)
     print('tất cả các dãy con dài nhất các số dương cùng dấu là: ')
-    for j in danh_sach_con :
-        print(j)
+    for daycon in danh_sach_con :
+        print(daycon)
         
 if __name__ == '__thongson__':
     thongson()
