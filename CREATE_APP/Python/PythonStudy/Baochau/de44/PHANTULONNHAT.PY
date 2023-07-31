@@ -1,4 +1,4 @@
-a = input('nhập vào danh sách và cách nhau bởi dấu phẩy: ')
+a = input('nhập vào danh sách ngăn các nhau bởi dấu phẩy: ')
 a = list(map(int, a.split(',')))
 max = 0
 max_vitri = a[0]
