@@ -13,9 +13,10 @@ Dữ liệu ra ghi vào tệp văn bản DONNHAT.OUT theo cấu trúc:
 -Ngược lại ghi 0.
 
 VÍ DỤ:
-DONNHAT.INP         DONNHAT.OUT
-6                   1
+DONNHAT.INP         
+6                   
 20 4 5 6 2 1
 
-6                   0
-9 4 5 4 6 2
+DONNHAT.OUT
+1
+
