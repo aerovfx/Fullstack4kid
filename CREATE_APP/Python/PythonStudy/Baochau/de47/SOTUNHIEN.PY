@@ -1,14 +1,22 @@
-n = int(input('nhập số n (n<=5000):'))
-if n >=5000:
-    print('thông số n ko hợp lệ.')
-    
+def is_prime(N):
+    if N < 2:
+        return False
+    for i in range(2, int(N**0.5) +1):
+        if N % i == 0:
+            return False
+        return True
+            
+def tong_songto(N):
+    tong_ngto = []
+    for i in range(2, N // 2 + 1):
+        if is_prime(i) and is_prime(N - i):
+            phuong_an = (i, N - i)
+            if phuong_an not in tong_ngto:
+                tong_ngto.append(phuong_an)
+    return tong_ngto  
 
-def tong_n(n):
-    for i in n:
-        for j in n:
-            tong = n[i] + n[j]
-        if tong % 2 != 0:
-            return n[i], n[j]
-        
-result = tong_n(n)
-print('tổng 2 số nguyên tố n:', result)
+N = int(input('nhập số N(N<5000):'))
+if N >= 5000:
+    print('thông số N ko hợp lệ')
+    
+print('',tong_songto(N))
