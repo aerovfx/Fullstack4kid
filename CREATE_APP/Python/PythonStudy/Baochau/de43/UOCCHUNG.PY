@@ -1,14 +1,13 @@
-a = input('nhập vào số nguyên a:')
-b = input('nhập vào số nguyên b:')
-a = int(a)
-b = int(b)
-
-def ucln(a,b):
-    r = a%b
-    while r != 0:
-        a = b
-        b = r
-        r = a%b
-    return b
-result = ucln(a,b)
-print('ước chúng lớn nhất là: ',result)
+def tim_ptu(n):
+    if n == 1:
+        gt=1
+    else:
+        num = n+1
+        gt = num + num
+    return gt
+with open('Cstn.INP','r') as file:
+    n = int(file.readline().strip())
+kq = tim_ptu(n)
+with open('Cstn.OUT','w') as file:
+    file.write('\n') 
+    
