@@ -8,4 +8,4 @@ Dữ liệu vào tệp văn bản CSTN.INP là một số duy nhất là vị tr
 Dữ liệu ra tệp văn bản CSTN.OUT ghi giá trị của phần tử thứ N của dãy số trên.
 
 CSTN.INP            CSTN.OUT
-7                   22
+7                     22
