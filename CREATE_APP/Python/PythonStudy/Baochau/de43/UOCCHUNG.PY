@@ -2,8 +2,8 @@ def tim_ptu(n):
     if n == 1:
         gt=1
     else:
-        num = n+1
-        gt = num + num
+        num =  tim_ptu(n-1)
+        gt = num + n-1
     return gt
 with open('Cstn.INP','r') as file:
     n = int(file.readline().strip())
