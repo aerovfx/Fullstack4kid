@@ -1,12 +1,12 @@
 with open('SONGUYEN.INP','r') as file:
-    n,k = int(file.readline().strip().split())
+    n,k = map(int(file.readline().split())
     s = n
     temp = n
-    for i in range(k):
+    for i in range(k): 
         temp = temp * 10
         s += temp
- 
     sum = 0
+    s = str(s)
     for i in range(len(s)):
         sum += int(s[i])
 with open('SONGUYEN.OUT','w') as file:
