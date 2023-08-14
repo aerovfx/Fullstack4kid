@@ -4,13 +4,17 @@ Cho N điểm phân biệt trên hệ trục toạ độ Oxy. Hãy đếm xem c�
 
 Dữ liệu
 +Dòng đầu tiên gồm một số nguyên dương N là số lượng các điểm
-+N dòng sau, mỗi dòng gồm 2 số x, y là tọa độ của một điểm
++N dòng sau, mỗi dòng gồm 2 số x, y là tọa độ của một điểm tạo thành các hình chữ nhập
 Kết quả:
-Gồm một số nguyên dương duy nhất là số lượng hình chữ nhật thoả mãn đề bài
+In ra thứ tự các hình chữ nhật với các toạ độ (x1,y1; x2,y2; x3,y3; x4,y4). Ví dụ:
+HCN ((1, 4); (3, 4); (3, 1); (1, 4))
+HCN ((1, 4); (3, 4); (5, 4); (5, 1))
+HCN ((3, 4); (3, 1); (5, 1); (5, 4))
+HCN ((2, 0); (4, 0); (4, -2); (2, -2))
 Ví dụ
 
 HCN.INP
-1 1
+11
 1 4
 1 1
 3 1
@@ -24,11 +28,8 @@ HCN.INP
 0 0
 
 HCN.OUT
-4
+HCN ((1, 4); (3, 4); (3, 1); (1, 4))
+HCN ((1, 4); (3, 4); (5, 4); (5, 1))
+HCN ((3, 4); (3, 1); (5, 1); (5, 4))
+HCN ((2, 0); (4, 0); (4, -2); (2, -2))
 
-Giải thích
-Như hình vẽ có 4 hình chữ nhật là 
-ABCD, 
-AEFB,
-CDEF,
-GHJI
