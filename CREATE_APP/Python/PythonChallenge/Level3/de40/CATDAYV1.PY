@@ -11,7 +11,7 @@ for x in range(1, N // 2 + 1):
     # nếu tổng chiều dài 2 cạnh bên lớn hơn đáy và chiều dài đáy lớn hơn cạnh bên
     if x + x > y and y > x: 
         count += 1
-
+    
 # Ghi giá trị của count vào file CATDAY.OUT
 with open('CATDAY.OUT', 'w') as file_output:
     file_output.write(str(count))

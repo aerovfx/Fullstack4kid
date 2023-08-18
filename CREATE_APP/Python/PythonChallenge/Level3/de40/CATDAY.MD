@@ -37,3 +37,22 @@ Với x chạy từ 1 đến N/2:
     Nếu điều kiện đúng, tăng biến count lên 1
 
 Ghi giá trị của count vào file văn bản CATDAY.OUT
+
+Bước 1: Soạn đề
+Bước 2: Đọc hiểu kết qủa 19 và 2, ý nghĩa của nó
+Bước 3: Load dữ liệu 19 từ file
+Bước 4: Lập hàm tính toán
+Bước 5: gọi hàm gán cho biến result
+Bước 6: Ghi result ra file
+-----
+Mở rộng, tạo file v2
+Bước 7: In ra kết quả x và y
+
+Mở rộng, tạo file v3
+Bước 8: Tạo nhiều dữ liệu đầu vào
+19
+17
+25
+49
+4
+Ghi kết quả tương ứng nhiều dòng
