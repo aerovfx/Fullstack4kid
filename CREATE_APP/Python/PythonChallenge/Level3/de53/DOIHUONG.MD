@@ -25,6 +25,13 @@ Có 7 bạn trên sân với hướng nhìn lần lượt là:
 DOIHUONG.OUT
 3
 6
+
+Bộ test
+1143322
+2311124334
+1334232142141423
+
+
 Do đó Nam nên chọn hướng điều động là nhìn về bên trái (3) thì các bận cần chỉ phải xoay với số lần ít nhất là 6 vì
 2 bạn nhìn trước (1,1) thì chỉ cần quay 1 lần với 2 bạn tổng cộng là 2 lần
 1 bạn nhìn phải (4) thì quay về trái cần quay 2 lần
