@@ -2,6 +2,8 @@
 Khoá học dành cho lứa tuổi học sinh THPT và THCS thực hiện các dự án webapp 
 Ngoài ra khóa học còn cung cấp một số kiến thức cơ bản về nguyên lý hoạt động của machine learning, ML. ML là một tập con của trí tuệ nhân tạo. 
 Machine learning là một lĩnh vực nhỏ trong khoa học máy tính, có khả năng tự học hỏi dựa trên dữ liệu được đưa vào mà không cần phải được lập trình cụ thể. Việc tiếp cận cách huấn luyện và các mô hình không đòi hỏi các kiến thức toán học cao cấp.<br/>
+Class code: bairrb3 <br/>
+Link google classroom: https://classroom.google.com/c/NjU5ODE2MDQ0OTJa?cjc=bairrb3 <br/>
 
 A. HƯỚNG DẪN VỀ LÀM VÀ NỘP BÀI HỌC<br/>
 1. Clone git<br/>
