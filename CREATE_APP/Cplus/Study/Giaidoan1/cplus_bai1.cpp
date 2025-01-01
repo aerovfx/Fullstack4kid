@@ -15,7 +15,7 @@ int main()
     std::cin >> tuoi;
 
     //In ra màn hình
-    std::cout << "Xin chào" << ten <<", bạn " << tuoi << "tuổi" <<std::endl;
+    std::cout << "Xin chào" << ten << ", bạn " << tuoi << "tuổi" <<std::endl;
 
 
     return 0;
