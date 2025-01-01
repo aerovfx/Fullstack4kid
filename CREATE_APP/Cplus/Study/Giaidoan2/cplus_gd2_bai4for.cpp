@@ -1,9 +1,11 @@
- #include <iostream>
-using namespace std;
+// for (khởi tạo; điều kiện; bước nhảy)
+//{ thực hiện điều kiện đúng
+//  }
 
-int main() {
-    for (int i = 1; i <= 10; i++) {
-        cout << i << " ";
+#include <iostream>
+int main(){
+    for (int i = 1; i <= 10; i++){
+        std::cout << i << " ";
     }
     return 0;
 }

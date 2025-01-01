@@ -1,12 +1,11 @@
+// Bài tập yêu cầu nhập vào 1 số và chương trình sẽ in ra x là số chẵn hay lẻ
 #include <iostream>
-using namespace std;
-
-int main() {
+int main(){
     int x;
-    // Nhập số x
+    //nhập vào số x
     std::cout << "Nhập số x: ";
     std::cin >> x;
-    string result = (x % 2 == 0) ? "Chẵn" : "Lẻ";
-    cout << "x là số " << result << endl;
+    std::string result = (x % 2 == 0) ? "Chẵn" : "Lẻ";
+    std::cout << "x là số " << result << std::endl;
     return 0;
 }
