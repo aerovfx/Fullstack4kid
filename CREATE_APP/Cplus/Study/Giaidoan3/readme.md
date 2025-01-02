@@ -111,10 +111,15 @@ int main() {
     }
     return 0;
 }
-uần 2: Chuỗi
+
+-----------------------------------
+
+
+
+Tuần 2: Chuỗi
 
 1. Khai báo và nhập/xuất chuỗi
-	•	Cách sử dụng:
+Cách sử dụng:
 #include <iostream>
 #include <string>
 using namespace std;
