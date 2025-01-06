@@ -11,7 +11,7 @@ Thực hiện kiểm định Chi-square:
 
 Sử dụng kiểm định Chi-square để kiểm tra mối quan hệ giữa giới tính và khả năng sống sót.
 Công thức:
-
+```
 from scipy.stats import chi2_contingency
 
 crosstab = pd.crosstab(df['Sex'], df['Survived'])
@@ -21,3 +21,5 @@ if p < 0.05:
     print("Bác bỏ giả thuyết không: Tỷ lệ sống sót có phụ thuộc vào giới tính.")
 else:
     print("Không đủ bằng chứng bác bỏ giả thuyết không: Tỷ lệ sống sót không phụ thuộc vào giới tính.")
+
+```
