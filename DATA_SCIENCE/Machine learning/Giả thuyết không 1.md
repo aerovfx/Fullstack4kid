@@ -10,8 +10,9 @@ Tính tỷ lệ sống sót theo giới tính.
 Thực hiện kiểm định Chi-square:
 
 Sử dụng kiểm định Chi-square để kiểm tra mối quan hệ giữa giới tính và khả năng sống sót.
-Công thức:
-```
+# Đây là mã lệnh trong Python
+
+```python
 from scipy.stats import chi2_contingency
 
 crosstab = pd.crosstab(df['Sex'], df['Survived'])
