@@ -1,4 +1,4 @@
-# Data Preprocessing
+# Deep learning
 # Table of contents
 - [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
@@ -17,7 +17,7 @@
 - [Resources](#resources)
 
 
-# Data Preprocessing 
+# Deep learning
 ## Import Dataset
 ```python
 dataset = pd.read_csv("data.csv")
