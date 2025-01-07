@@ -1,11 +1,3 @@
-Collecting workspace information
-
-Dưới đây là phiên bản điều chỉnh của file 
-
-README.md
-
- với định dạng Markdown và đánh chỉ mục menu:
-
 ```markdown
 # Data Preprocessing
 
