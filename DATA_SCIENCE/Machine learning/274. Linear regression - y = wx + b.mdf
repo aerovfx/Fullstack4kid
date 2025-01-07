@@ -1,0 +1,118 @@
+Bạn thực sự không có một biến phụ thuộc để bạn có thể xem xét tác động của một yếu tố lên yếu tố khác.
+Vậy thì, hãy bắt đầu nhé.
+Trong trường hợp này, rất dễ để mô tả mối quan hệ giữa X và Y. Chúng ta có thể nói Y =.
+Vậy, chúng ta cần nhân X với gì?
+Chúng ta có phương trình y = w * x + B.
+Tôi sẽ viết phương trình này ra một cách rõ ràng hơn.
+Vậy Y =, chúng ta cần nhân X với gì?
+W đại diện cho điều này.
+Và đây là giá trị X tốt nhất mà bạn có thể thấy.
+Và chúng ta cần thêm gì vào nữa?
+Vì vậy, chúng ta đang nói đến việc phải thay đổi gì ở X để có được Y.
+Trong trường hợp này, thực tế chúng ta không cần nhân X với gì cả, chỉ cần một và không cần thêm gì cả.
+Vậy chúng ta có thể nói Y = X.
+Bây giờ, hãy xem xét một ví dụ khác.
+Nếu tôi xóa cái này đi.
+Nhìn khá ổn.
+Hãy thử.
+Giả sử lần này chúng ta có dữ liệu với Y là.
+Hai khi X là một, ba khi X là hai.
+Một khi X là ba.
+Năm khi X là bốn và sáu khi X là năm.
+Vậy nếu chúng ta vẽ biểu đồ này.
+Khi X là một, Y là hai.
+Vì vậy, nó sẽ cao hơn một chút.
+Khi X là hai, Y sẽ như thế này.
+Vậy chúng ta có thể thấy rằng lần này, đường thẳng hơi khác một chút, nó cao hơn so với lần trước, mặc dù độ dốc không thay đổi.
+Nếu tôi vẽ lại đường thẳng ban đầu để bạn thấy.
+Độ dốc không thay đổi, nhưng nó cao hơn một chút.
+Vậy bây giờ, chúng ta sẽ viết phương trình như thế nào?
+Tôi sẽ dán nhãn cho đường thẳng này.
+Đây là số một.
+Đường thẳng này là số hai.
+Vậy phương trình của số một là gì?
+Còn đối với số hai thì nó không đơn giản như Y = X vì khi Y là hai.
+X không phải là một, đúng không?
+Hoặc khi X là một, Y không phải là hai.
+Vậy chúng ta thực sự cần phải thêm vào Y là gì?
+Vậy chúng ta có thể viết phương trình là Y = X + 1.
+Có vậy thôi.
+Giả sử ví dụ chúng ta cũng có X = 0 và Y = 1 ở đây, vì tôi sẽ chỉ cho bạn một điều rất dễ dàng để tính toán giá trị B.
+Trong hồi quy tuyến tính, bạn chỉ cần nhìn vào nơi giao điểm của đường thẳng với trục Y.
+Khi X là 0, Y là gì?
+Vì vậy, chúng ta có thể dễ dàng tính toán được Y = 0.
+Điều quan trọng đầu tiên là bạn có thể tính giá trị B bằng cách nhìn vào vị trí giao điểm của đường thẳng với trục Y.
+Cuối cùng, hãy xem xét W có thể bị ảnh hưởng như thế nào.
+Trong ví dụ mà tôi tạo ra ở đây, khi X là 0, Y là 0.
+Khi X là 1, Y là 2, khi X là 2, Y là 4, v.v.
+Tôi đã vẽ lên đây và chỉ có thể vẽ ba điểm đầu tiên vì Y không thực sự lên đến 8 hay 10 ở đây.
+Nhưng bạn có thể thấy rằng lần này, đường thẳng bắt đầu ở cùng một điểm như bộ dữ liệu đầu tiên của chúng ta.
+Nhưng lần này, đường thẳng dốc hơn rất nhiều.
+Điều đầu tiên chúng ta có thể nhìn vào là những gì chúng ta đã học.
+Khi chúng ta cố gắng viết phương trình, chúng ta có thể nhìn và xem giá trị B là gì.
+Vậy, hãy tạm dừng video.
+Bây giờ, hãy nhìn vào dữ liệu và suy nghĩ, nhìn vào đồ thị và nghĩ xem giá trị B là gì.
+Hãy tạm dừng video và thử làm điều đó.
+Hy vọng bạn đã làm đúng.
+Và đó chính là điều chúng ta đã nói trước đó.
+Bạn luôn có thể nhìn vào nơi giao điểm của đường thẳng với trục Y.
+Tại điểm giao này, cả X và Y đều bằng 0, vì vậy chúng ta có thể kết luận rằng khi X là 0, Y cũng là 0.
+Vì vậy, giá trị B thực tế sẽ là 0.
+Khi X là 0, giá trị Y tại điểm đó chính là giá trị của B.
+Vì vậy, khi B = 0, chúng ta không cần phải thêm gì vào.
+Vậy chúng ta chỉ cần nhìn vào X và W để biết chúng ta cần nhân X với gì để có được Y.
+Khi chúng ta nhìn vào đây, khi X là 1, Y là 2, tức là chúng ta nhân X với 2.
+Khi X là 2, Y là 4, tức là chúng ta lại nhân với 2.
+Như bạn thấy, mẫu số này tiếp tục như vậy.
+Vậy phương trình đúng cho đường thẳng này là Y = 2X.
+Điều thú vị là giờ chúng ta có thể bắt đầu đưa ra dự đoán.
+Vậy, giả sử chúng ta chỉ có 1, 2, 3 hoặc 5, nhưng giờ chúng ta muốn tính toán.
+Chà, nếu chúng ta bỏ ra 20 bảng vào ngân sách quảng cáo, chúng ta nghĩ chúng ta sẽ có thể bán được bao nhiêu sản phẩm?
+Tất cả những gì chúng ta cần làm là thay số đó vào phương trình, ta có Y = 2X.
+Vậy khi X = 20, chúng ta có thể nói Y = 2 x 20.
+Hy vọng bạn theo kịp.
+Về cơ bản, chúng ta lấy phương trình của mình và chỉ thay X bằng 20.
+Vậy Y = 40.
+Vì vậy, khi chúng ta đưa ra dự đoán, và điều này rất quan trọng đối với các mạng nơ-ron và học máy trong các bài học sau.
+Khi mọi thứ bắt đầu phức tạp hơn, bạn thực sự muốn hiểu những điều cơ bản này.
+Khi chúng ta đưa ra dự đoán, không còn gọi là Y nữa mà ta gọi là Y mũ, và thêm một dấu mũ lên trên Y.
+Điều này chỉ để thể hiện đây là một dự đoán, không phải giá trị thực tế.
+Giá trị thực tế là bất kỳ dữ liệu nào mà chúng ta nhận được ban đầu, đó là những gì chắc chắn đúng.
+Giờ chúng ta có thể bắt đầu đưa ra dự đoán thực sự, điều này thật tuyệt vời.
+Và mặc dù bạn có thể không nghĩ vậy, bạn có thể nghĩ "Chà, có thể điều này chỉ là một chút nhàm chán."
+Nhưng bạn sẽ ngạc nhiên khi chúng ta bắt tay vào việc xây dựng mạng nơ-ron và ghép nối những gì tôi đang dạy bạn ở đây.
+Nó sẽ khiến bạn kinh ngạc về mức độ đơn giản mà nó có thể đạt được miễn là bạn đã hiểu được những kiến thức nền tảng này.
+Vì vậy, điều quan trọng là bạn phải hiểu những điều này.
+Cuối cùng, tôi muốn nói với bạn về cách tính W bằng cách nhìn vào độ dốc của đường thẳng.
+Vì vậy, thực sự rất hữu ích khi vẽ đồ thị.
+Bạn có thể nhìn vào đó và nói.
+Khi tôi tăng X lên một đơn vị.
+Y sẽ tăng bao nhiêu?
+Vậy bạn có thể nói rằng khi bạn tăng X thêm một đơn vị, Y sẽ tăng bao nhiêu.
+Và mức độ tăng này chính là W.
+Vậy tóm lại những gì chúng ta đã nói trong bài học này, đầu tiên là chúng ta đã nói về hồi quy tuyến tính,
+một loại học có giám sát trong đó chúng ta có dữ liệu thực tế cả X và Y,
+và chúng ta muốn xem xét tác động của biến độc lập X lên biến phụ thuộc Y.
+Sau đó, chúng ta đã nói về cách mô tả dữ liệu của mình bằng các đường thẳng trên đồ thị, nhưng cũng cách mô tả nó bằng phương trình rất mạnh mẽ này.
+Y = W * X + B, và điều này chỉ có thể mô tả dữ liệu có dạng đường thẳng chứ không phải cong.
+Sau đó, chúng ta đã nói về cách sử dụng phương trình này để mô tả bất kỳ dữ liệu nào mà chúng ta có.
+Ví dụ, chúng ta đã xem xét khi X là một, Y là một, X là hai, Y là hai, X là ba, Y là ba,
+Đó là một đường thẳng cắt trục Y tại 0.
+Khi X là 0, Y cũng bằng 0.
+Và độ dốc là 1.
+Vậy chúng ta có phương trình Y = X.
+Tiếp theo, chúng ta đã nói về trường hợp khi X là một, Y là hai, X là hai, Y là ba, X là ba, Y là bốn.
+Chúng ta đã nhìn vào đồ thị và nhận thấy rằng giao điểm với trục Y là 1.
+Vì vậy, chúng ta kết luận rằng phương trình là Y = X + 1.
+Cuối cùng, chúng ta đã xem xét độ dốc.
+Khi X là một, Y là hai.
+Điều quan trọng là X và Y đều là 0.
+Chúng ta nhận thấy rằng khi X và Y đều bằng 0, độ dốc của đồ thị đã thay đổi.
+Chúng ta đã tính toán và phát hiện ra rằng Y = 2X.
+Đó là những quy tắc để tính W và B.
+Sau đó, chúng ta đã nói về cách điều này có thể hữu ích trong việc đưa ra dự đoán về Y.
+Ví dụ, chúng ta đã tính toán được số sản phẩm sẽ bán được nếu chúng ta chi 20 bảng cho quảng cáo.
+Và cuối cùng, chúng ta đã nói về sức mạnh của việc sử dụng phương trình này để đưa ra dự đoán và khả năng ứng dụng trong các mạng nơ-ron.
+Vì vậy, hãy nhớ rằng khi làm việc với các mạng nơ-ron, những nguyên lý này sẽ rất quan trọng.
+Hãy ghi chú, ôn lại và thử áp dụng chúng với các bộ dữ liệu trước đây khi bạn vẽ đồ thị và thử tìm ra phương trình cho chúng.
+

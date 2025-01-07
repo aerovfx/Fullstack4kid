@@ -148,7 +148,7 @@ int main() {
 }
 2. Kiểm tra số nguyên tố
 	•	Mô tả: Nhập một số n, kiểm tra xem n có phải là số nguyên tố không.
-	•	Gợi ý:
+	•	Gợi ý: số nguyên tố là số chia hết cho 1 và chính nó.
 
 #include <iostream>
 using namespace std;

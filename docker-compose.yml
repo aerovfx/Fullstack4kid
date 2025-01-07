@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fullstack4kid:
+    image: fullstack4kid
+    build:
+      context: .
+      dockerfile: ./Dockerfile

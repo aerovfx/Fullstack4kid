@@ -62,28 +62,39 @@ for (int i = 0; i < n; i++) {
 Duyệt qua mảng, hoán đổi các phần tử nếu chúng không theo thứ tự.
 	•	Ví dụ:
 
-#include <iostream>
-using namespace std;
+#include <iostream> // Thư viện hỗ trợ nhập xuất
+using namespace std; // Sử dụng không gian tên std để rút gọn cú pháp
 
+// Hàm thực hiện thuật toán sắp xếp nổi bọt (Bubble Sort)
 void bubbleSort(int arr[], int n) {
+    // Lặp qua các phần tử của mảng (tối đa n-1 lần)
     for (int i = 0; i < n - 1; i++) {
+        // Lặp qua mảng, so sánh từng cặp phần tử liền kề
         for (int j = 0; j < n - i - 1; j++) {
+            // Nếu phần tử trước lớn hơn phần tử sau, đổi chỗ
             if (arr[j] > arr[j + 1]) {
-                swap(arr[j], arr[j + 1]);
+                swap(arr[j], arr[j + 1]); // Hàm swap đổi giá trị 2 phần tử
             }
         }
     }
 }
 
 int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    // Khởi tạo mảng arr với các giá trị cho sẵn
+    int arr[] = {7, 76, 15, 10, 2, 1, 40};
+    int n = sizeof(arr) / sizeof(arr[0]); // Tính số phần tử của mảng
+
+    // Gọi hàm sắp xếp nổi bọt để sắp xếp mảng
     bubbleSort(arr, n);
+
+    // In các phần tử sau khi sắp xếp
     for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
+        cout << arr[i] << " "; // In từng phần tử, cách nhau bằng khoảng trắng
     }
-    return 0;
+
+    return 0; // Kết thúc chương trình
 }
+
 5. Tìm kiếm (Linear Search)
 	•	Thuật toán:
 Duyệt qua mảng để tìm phần tử khớp với giá trị cần tìm.
@@ -91,52 +102,60 @@ Duyệt qua mảng để tìm phần tử khớp với giá trị cần tìm.
 #include <iostream>
 using namespace std;
 
-int linearSearch(int arr[], int n, int x) {
+// Hàm Linear Search
+int linearSearch(int arr[], int n, int target) {
     for (int i = 0; i < n; i++) {
-        if (arr[i] == x) {
-            return i;
+        if (arr[i] == target) { // So sánh phần tử tại vị trí i với giá trị cần tìm
+            return i; // Trả về vị trí nếu tìm thấy
         }
     }
-    return -1;
+    return -1; // Trả về -1 nếu không tìm thấy
 }
 
 int main() {
-    int arr[] = {10, 20, 30, 40, 50};
-    int x = 30;
-    int index = linearSearch(arr, 5, x);
-    if (index != -1) {
-        cout << "Phần tử tìm thấy ở vị trí: " << index << endl;
+    // Khởi tạo mảng và giá trị cần tìm
+    int arr[] = {10, 23, 45, 70, 11, 15};
+    int n = sizeof(arr) / sizeof(arr[0]); // Số phần tử của mảng
+    int target = 70;
+
+    // Gọi hàm Linear Search
+    int result = linearSearch(arr, n, target);
+
+    // Hiển thị kết quả
+    if (result != -1) {
+        cout << "Phan tu " << target << " duoc tim thay tai vi tri: " << result << endl;
     } else {
-        cout << "Không tìm thấy phần tử." << endl;
+        cout << "Phan tu " << target << " khong ton tai trong mang." << endl;
     }
+
     return 0;
 }
-uần 2: Chuỗi
+
+
+
+Tuần 2: Chuỗi
 
 1. Khai báo và nhập/xuất chuỗi
 	•	Cách sử dụng:
-#include <iostream>
-#include <string>
-using namespace std;
+#include <iostream> // Thư viện hỗ trợ nhập xuất
+#include <string>   // Thư viện hỗ trợ kiểu dữ liệu string
+using namespace std; // Sử dụng không gian tên std để rút gọn cú pháp
 
 int main() {
-    string str;
-    cout << "Nhập chuỗi: ";
-    getline(cin, str); // Nhập chuỗi có dấu cách
-    cout << "Chuỗi vừa nhập: " << str << endl;
-    return 0;
-}
-#include <iostream>
-#include <string>
-using namespace std;
+    string str; // Khai báo một chuỗi (string) để lưu giá trị nhập vào từ người dùng
 
-int main() {
-    string str;
+    // Hiển thị lời nhắc nhập chuỗi
     cout << "Nhập chuỗi: ";
-    getline(cin, str); // Nhập chuỗi có dấu cách
+
+    // Hàm getline dùng để đọc cả dòng văn bản, bao gồm cả khoảng trắng
+    getline(cin, str);
+
+    // In chuỗi vừa nhập ra màn hình
     cout << "Chuỗi vừa nhập: " << str << endl;
-    return 0;
+
+    return 0; // Kết thúc chương trình
 }
+
 2. Thao tác cơ bản với chuỗi
 	•	Nối chuỗi:
 string str1 = "Hello";
