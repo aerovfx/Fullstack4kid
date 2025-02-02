@@ -1,0 +1,5 @@
+DevOps (viết tắt của Development Operations) là một phương pháp tiếp cận phát triển phần mềm kết hợp giữa quy trình phát triển (development) và quy trình vận hành (operations) nhằm tăng cường hiệu suất và hiệu quả của quá trình phát triển và triển khai ứng dụng.
+<br/>
+DevOps tập trung vào việc tạo ra sự liên kết mạnh mẽ giữa các nhóm phát triển phần mềm, kiểm thử, vận hành và quản lý hạ tầng. Mục tiêu của DevOps là tạo ra một quy trình liên tục và tự động hoá trong việc phát triển, kiểm thử, triển khai và vận hành ứng dụng. Điều này giúp tăng tốc độ phát triển, giảm thiểu rủi ro và tạo ra sự linh hoạt trong việc triển khai và vận hành sản phẩm phần mềm.
+<br/>
+Các chuyên gia DevOps (DevOps engineers) thường làm việc với các công cụ tự động hóa (automation tools) và các nền tảng công nghệ như hệ thống quản lý mã nguồn (source control), công cụ triển khai tự động (continuous deployment), công cụ kiểm thử tự động (automated testing), hệ thống giám sát (monitoring systems) và các công cụ quản lý cấu hình (configuration management).<br.>
