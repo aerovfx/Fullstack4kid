@@ -1,6 +1,4 @@
-Here is the content from the file in markdown format:
 
-```markdown
 1. Học máy (Machine Learning - ML)
    - Học có giám sát (Supervised Learning): Nhận diện hình ảnh, phân loại email spam, dự đoán giá cổ phiếu.
    - Học không giám sát (Unsupervised Learning): Phân cụm khách hàng, phát hiện bất thường.
