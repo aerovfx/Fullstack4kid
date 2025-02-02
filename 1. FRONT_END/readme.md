@@ -1,4 +1,4 @@
-Here is the provided text formatted in markdown:
+
 
 ```markdown
 Front-end Development là lĩnh vực phát triển giao diện người dùng của ứng dụng web, tập trung vào trải nghiệm người dùng (UI/UX). Dưới đây là các lĩnh vực chính:
