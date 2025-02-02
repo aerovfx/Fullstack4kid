@@ -1,5 +1,29 @@
-DevOps (viết tắt của Development Operations) là một phương pháp tiếp cận phát triển phần mềm kết hợp giữa quy trình phát triển (development) và quy trình vận hành (operations) nhằm tăng cường hiệu suất và hiệu quả của quá trình phát triển và triển khai ứng dụng.
-<br/>
-DevOps tập trung vào việc tạo ra sự liên kết mạnh mẽ giữa các nhóm phát triển phần mềm, kiểm thử, vận hành và quản lý hạ tầng. Mục tiêu của DevOps là tạo ra một quy trình liên tục và tự động hoá trong việc phát triển, kiểm thử, triển khai và vận hành ứng dụng. Điều này giúp tăng tốc độ phát triển, giảm thiểu rủi ro và tạo ra sự linh hoạt trong việc triển khai và vận hành sản phẩm phần mềm.
-<br/>
-Các chuyên gia DevOps (DevOps engineers) thường làm việc với các công cụ tự động hóa (automation tools) và các nền tảng công nghệ như hệ thống quản lý mã nguồn (source control), công cụ triển khai tự động (continuous deployment), công cụ kiểm thử tự động (automated testing), hệ thống giám sát (monitoring systems) và các công cụ quản lý cấu hình (configuration management).<br.>
+
+### Version Control (Quản lý phiên bản)
+- **Git** – Hệ thống quản lý phiên bản phân tán phổ biến nhất.
+- **GitHub**, **GitLab**, **Bitbucket** – Lưu trữ, quản lý mã nguồn, hỗ trợ CI/CD.
+
+### Containerization & Virtualization
+- **Docker** – Tạo và chạy ứng dụng trong môi trường container.
+- **Podman** – Alternative nhẹ hơn cho Docker.
+- **LXC/LXD** – Ảo hóa nhẹ, chạy hệ điều hành trong container.
+
+### Container Orchestration (Điều phối container)
+- **Kubernetes (K8s)** – Điều phối, quản lý nhiều container trên nhiều máy chủ.
+- **OpenShift** – Nền tảng Kubernetes dành cho doanh nghiệp.
+- **Docker Swarm** – Điều phối Docker container.
+
+### CI/CD (Continuous Integration & Deployment)
+- **GitHub Actions** – Tự động hóa quá trình build, test, deploy.
+- **GitLab CI/CD** – Công cụ CI/CD tích hợp trong GitLab.
+- **Jenkins** – Hệ thống tự động hóa phổ biến cho CI/CD.
+- **Travis CI**, **CircleCI** – Các công cụ CI/CD khác.
+
+### Infrastructure as Code (IaC) & Automation
+- **Terraform** – Quản lý hạ tầng bằng mã.
+- **Ansible**, **Puppet**, **Chef** – Tự động hóa cấu hình máy chủ.
+- **Helm** – Quản lý ứng dụng Kubernetes.
+
+### Cloud & Deployment Platforms
+- **AWS**, **Google Cloud**, **Azure** – Các dịch vụ đám mây phổ biến.
+- **Firebase**, **Netlify**, **Vercel** – Triển khai ứng dụng nhanh chóng.
