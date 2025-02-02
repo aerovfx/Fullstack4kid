@@ -24,7 +24,7 @@ Khoá học dành cho học sinh THPT và THCS nhằm giúp các bạn tiếp c�
 
 ### 1. Clone Git Repository
 ```bash
-git clone https://github.com/aerovfx/Fullstack4kid.git
+git clone https://github.com/aerovfx/Aero-Fullstack4kid.git
 ```
 
 ### 2. Tạo Nhánh Riêng
