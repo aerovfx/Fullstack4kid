@@ -9,7 +9,7 @@ Sử dụng dấu đô la (`$`) để bao quanh công thức toán học nếu b
 Đây là công thức $E = mc^2$ trong dòng văn bản.
 ```
 Kết quả hiển thị sẽ là:
-Đây là công thức \( E = mc^2 \) trong dòng văn bản.
+Đây là công thức $ \( E = mc^2 \) $ trong dòng văn bản.
 
 ### 2. **Công thức toán học dạng khối (Block Math)**
 
@@ -35,9 +35,9 @@ Kết quả hiển thị sẽ là:
 Công thức phân số là: $\frac{a}{b}$
 ```
 Kết quả hiển thị sẽ là:
-\[
+$$
 \frac{a}{b}
-\]
+$$
 
 ### 4. **Công thức với căn bậc hai**
 
@@ -48,9 +48,9 @@ Kết quả hiển thị sẽ là:
 Công thức căn bậc hai là: $\sqrt{a + b}$
 ```
 Kết quả hiển thị sẽ là:
-\[
+$$
 \sqrt{a + b}
-\]
+$$
 
 ### 5. **Lũy thừa và chỉ số**
 
@@ -64,9 +64,9 @@ Kết quả hiển thị sẽ là:
 Lũy thừa là: $x^2$, chỉ số là: $a_b$
 ```
 Kết quả hiển thị sẽ là:
-\[
+$$
 x^2, \quad a_b
-\]
+$$
 
 ### 6. **Tích phân (Integral)**
 
@@ -77,9 +77,9 @@ x^2, \quad a_b
 Tích phân là: $\int_{0}^{\infty} e^{-x^2} dx$
 ```
 Kết quả hiển thị sẽ là:
-\[
+$$
 \int_{0}^{\infty} e^{-x^2} dx
-\]
+$$
 
 ### 7. **Dấu delta (Δ) và nabla (∇)**
 
@@ -90,9 +90,9 @@ Sử dụng cú pháp `\Delta` cho Delta và `\nabla` cho Nabla.
 Dấu Delta là: $\Delta x$, Dấu Nabla là: $\nabla f(x)$
 ```
 Kết quả hiển thị sẽ là:
-\[
+$$
 \Delta x, \quad \nabla f(x)
-\]
+$$
 
 ### 8. **Vecto và ma trận**
 
@@ -103,9 +103,9 @@ Kết quả hiển thị sẽ là:
 Vector: $\mathbf{v}$, Ma trận: $\begin{matrix} a & b \\ c & d \end{matrix}$
 ```
 Kết quả hiển thị sẽ là:
-\[
+$$
 \mathbf{v}, \quad \begin{matrix} a & b \\ c & d \end{matrix}
-\]
+$$
 
 ### 9. **Ký hiệu trong logic toán học**
 
@@ -116,9 +116,9 @@ Sử dụng cú pháp `\forall` cho "với mọi", `\exists` cho "tồn tại", 
 Logic: $\forall x \in \mathbb{R}, \exists y \in \mathbb{R}$, $\neg P \implies Q$
 ```
 Kết quả hiển thị sẽ là:
-\[
+$$
 \forall x \in \mathbb{R}, \exists y \in \mathbb{R}, \quad \neg P \implies Q
-\]
+$$
 
 ### 10. **Ký hiệu toán học khác**
 
@@ -131,8 +131,8 @@ Kết quả hiển thị sẽ là:
 Hàm số: $\sin(x)$, Mũi tên: $x \rightarrow y$
 ```
 Kết quả hiển thị sẽ là:
-\[
+$$
 \sin(x), \quad x \rightarrow y
-\]
+$$
 
 Những quy tắc này sẽ giúp bạn viết và hiển thị các công thức toán học đẹp mắt trong Markdown nếu nền tảng bạn sử dụng hỗ trợ LaTeX.
