@@ -1,37 +1,31 @@
-
-Data Cleaning and Pre-Processing<br/>
-Data Exploration and Visualisation<br/>
-Linear Regression<br/>
-Multivariable Regression<br/>
-Optimisation Algorithms and Gradient Descent<br/>
-Naive Bayes Classification<br/>
-Descriptive Statistics and Probability Theory<br/>
-Neural Networks and Deep Learning<br/>
-Model Evaluation and Analysis<br/>
-Serving a Tensorflow Model<br/>
-
-
-
-Python 3<br/>
-Tensorflow<br/>
-Pandas<br/>
-Numpy<br/>
-Scikit Learn<br/>
-Keras<br/>
-Matplotlib<br/>
-Seaborn<br/>
-SciPy<br/>
-SymPy<br/>
-
-Python programming concepts:<br/>
-
-Data Types and Variables<br/>
-String Manipulation<br/>
-Functions<br/>
-Objects<br/>
-Lists, Tuples and Dictionaries<br/>
-Loops and Iterators<br/>
-Conditionals and Control Flow<br/>
-Generator Functions<br/>
-Context Managers and Name Scoping<br/>
-Error Handling<br/>
+1. Học máy (Machine Learning - ML)
+Học có giám sát (Supervised Learning): Nhận diện hình ảnh, phân loại email spam, dự đoán giá cổ phiếu.
+Học không giám sát (Unsupervised Learning): Phân cụm khách hàng, phát hiện bất thường.
+Học tăng cường (Reinforcement Learning - RL): AI chơi game, xe tự lái, tối ưu hóa robot.
+2. Xử lý ngôn ngữ tự nhiên (Natural Language Processing - NLP)
+Dịch máy (Google Translate).
+Chatbot và trợ lý ảo (ChatGPT, Siri).
+Tóm tắt và phân tích văn bản.
+3. Thị giác máy tính (Computer Vision - CV)
+Nhận diện khuôn mặt.
+Phát hiện vật thể, xe tự lái.
+Chẩn đoán hình ảnh y khoa.
+4. Trí tuệ nhân tạo phân tán (Distributed AI)
+AI phi tập trung (Federated Learning).
+Hệ thống đa tác nhân (Multi-Agent Systems).
+AI trên thiết bị biên (Edge AI).
+5. Hệ thống chuyên gia (Expert Systems)
+Chẩn đoán y khoa.
+Hỗ trợ ra quyết định trong tài chính.
+6. AI trong Robotics
+Robot tự hành.
+Cánh tay robot trong sản xuất.
+Robot dịch vụ (nhà hàng, y tế).
+7. AI sáng tạo (Creative AI)
+Vẽ tranh, sáng tác nhạc.
+Viết nội dung (GPT-4, Gemini).
+Thiết kế 3D, kiến trúc.
+8. AI trong khoa học và mô phỏng
+AI trong vật lý lượng tử.
+Mô phỏng khí hậu.
+Dự đoán protein trong y học.
