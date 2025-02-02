@@ -1,67 +1,124 @@
-# Fullstack4kid
-Khoá học dành cho lứa tuổi học sinh THPT và THCS thực hiện các dự án webapp 
-Ngoài ra khóa học còn cung cấp một số kiến thức cơ bản về nguyên lý hoạt động của machine learning, ML. ML là một tập con của trí tuệ nhân tạo. 
-Machine learning là một lĩnh vực nhỏ trong khoa học máy tính, có khả năng tự học hỏi dựa trên dữ liệu được đưa vào mà không cần phải được lập trình cụ thể. Việc tiếp cận cách huấn luyện và các mô hình không đòi hỏi các kiến thức toán học cao cấp.<br/>
-Class code: bairrb3 <br/>
-Link google classroom: https://classroom.google.com/c/NjU5ODE2MDQ0OTJa?cjc=bairrb3 <br/>
+# Hướng Dẫn Lập Trình Trí Tuệ Nhân Tạo Cho Học Sinh THPT
 
-A. HƯỚNG DẪN VỀ LÀM VÀ NỘP BÀI HỌC<br/>
-1. Clone git<br/>
-Cú pháp: git clone https://github.com/aerovfx/Fullstack4kid.git<br/>
-2. Tạo nhánh của học viên (có thể dùng git checkout cho lần đầu tạo nhánh)<br/>
-Cú pháp: git branch tên_nhánh<br/>
-3. Chuyển sang nhánh của mình<br/>
-Cú pháp: git checkout tên_nhánh<br/>
-4. Làm các bài tập<br/>
-5. Kiểm tra trạng thái của các file<br/>
-Cú pháp: git status<br/>
-6. Thêm file thay đổi vào hàng đợi<br/>
-Cú pháp: git add . hoặc git add tên_file thường thì nên chọn cách 2. Áp dụng cho các file có sự thay đổi<br/>
-7. Thêm các ghi chú cho file<br/>
-Cú pháp: git commit -m 'Dòng thông báo những nội dung thay đổi'<br/>
-8. Đẩy file lên git vào nhánh của mình<br/>
-Cú pháp: git push origin tên_nhánh<br/>
-9. Giáo viên kiểm tra và cho nhận xét về các dự án nhỏ.<br/>
+## Giới Thiệu
 
+Khoá học dành cho học sinh THPT và THCS nhằm giúp các bạn tiếp cận với lập trình Fullstack và trí tuệ nhân tạo (AI). Ngoài việc xây dựng các dự án webapp, khoá học cung cấp những kiến thức cơ bản về Machine Learning (ML) - một lĩnh vực quan trọng trong AI, giúp các bạn hiểu và áp dụng ML với một nền tảng cơ bản của toán học cao cấp.
 
-B. NỘI DUNG CỤ THỂ CỦA KHOÁ HỌC<br/>
-Become a Full-Stack Web Developer<br/>
-1. FRONT-END: <br/>
-HTML 5<br/>
-CSS 3<br/>
-Bootstrap 4<br/>
-HTML, CSS, Javascript, React<br/>
+**Class code:** `bairrb3`
 
+**Google Classroom:** [Tham gia lớp học](#)
 
-2. BACK-END WEB DEVELOPMENT<br/>
-Node.js<br/>
-NPM<br/>
-Express.js<br/>
-EJS<br/>
-REST<br/>
-APIsNode, Django<br/>
-Authentication<br/>
+## Mục Lục
 
-3. DATABASE<br/>
-SQL<br/>
-MongoDB<br/>
+- [Hướng dẫn về làm và nộp bài học](#huong-dan-ve-lam-va-nop-bai-hoc)
+- [Nội dung khoá học](#noi-dung-khoa-hoc)
+  - [Front-end Development](#front-end-development)
+  - [Back-end Development](#back-end-development)
+  - [Database](#database)
+  - [Development Server](#development-server)
+  - [Bonus: Web3](#bonus-web3)
+  - [Mobile Development](#mobile-development)
+  - [AI & Machine Learning](#ai-machine-learning)
 
+## A. Hướng Dẫn Về Làm Và Nộp Bài Học
 
-4. DEVELOPMENT SERVER<br/>
-Git, GitHub, Heroku, docker, VPS: Google Cloud, AMS EC2<br/>
+### 1. Clone Git Repository
+```bash
+git clone https://github.com/aerovfx/Fullstack4kid.git
+```
 
-5. BONUS: WEB3<br/>
-Blockchain technology<br/>
-Token contract development<br/>
-NFT minting.<br/>
+### 2. Tạo Nhánh Riêng
+```bash
+git branch ten_nhanh
+```
 
-6. MOBILE<br/>
-Swift<br/>
+### 3. Chuyển Sang Nhánh Của Mình
+```bash
+git checkout ten_nhanh
+```
 
-7. AI ( topic: MACHINE  LEARNING )<br/>
-Chatgpt, Tenflow, R<br/>
-GANS<br/>
-Training Model<br/>
-Stable Diffusion<br/>
+### 4. Làm Bài Tập & Kiểm Tra Trạng Thái File
+```bash
+git status
+```
 
+### 5. Thêm File Vào Hàng Đợi Commit
+```bash
+git add ten_file
+```
+
+### 6. Thêm Ghi Chú Cho File
+```bash
+git commit -m "Mô tả ngắn gọn về nội dung thay đổi"
+```
+
+### 7. Đẩy File Lên Nhánh Của Mình
+```bash
+git push origin ten_nhanh
+```
+
+Giáo viên sẽ kiểm tra và cho nhận xét về các dự án nhỏ.
+
+## B. Nội Dung Khoá Học
+
+### 1. Front-end Development
+
+- Ngôn ngữ và Công nghệ Cơ bản
+- Thư viện & Framework
+- UI/UX Design
+- CSS Frameworks & Preprocessors
+- Front-end Tools & Build Systems
+- State Management
+- Testing & Debugging
+- API Integration
+- Performance Optimization
+- Animation & Interactivity
+
+### 2. Back-end Development
+
+- Ngôn ngữ lập trình Back-end
+- Frameworks & Web Server
+- Cơ sở dữ liệu (Database Management)
+- API Development & Integration
+- Authentication & Security
+- DevOps & Deployment
+- Microservices & Distributed Systems
+- Logging, Monitoring & Performance Optimization
+
+### 3. Software Development Tools
+
+- Version Control (Quản lý phiên bản)
+- Containerization & Virtualization
+- Container Orchestration (Điều phối container)
+- CI/CD (Continuous Integration & Deployment)
+- Infrastructure as Code (IaC) & Automation
+- Cloud & Deployment Platforms
+
+### 4. Mobile Development
+
+- Native Development
+- Cross-Platform Development
+- Progressive Web Apps (PWA)
+
+### 5. AI & Machine Learning
+
+- Học máy (Machine Learning - ML)
+- Xử lý ngôn ngữ tự nhiên (Natural Language Processing - NLP)
+- Thị giác máy tính (Computer Vision - CV)
+- Trí tuệ nhân tạo phân tán (Distributed AI)
+- Hệ thống chuyên gia (Expert Systems)
+- AI trong Robotics
+- AI sáng tạo (Creative AI)
+- AI trong khoa học và mô phỏng
+
+### 6. Web 3
+
+- Blockchain & Smart Contracts
+- DeFi (Tài chính phi tập trung - Decentralized Finance)
+- NFTs & Metaverse
+- DAOs (Tổ chức tự trị phi tập trung - Decentralized Autonomous Organizations)
+- Gaming & GameFi (Game + DeFi)
+- Decentralized Identity & Privacy
+- SocialFi (Mạng xã hội phi tập trung)
+- AI & Web3 (Kết hợp AI với Blockchain)
 
