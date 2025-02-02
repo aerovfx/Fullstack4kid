@@ -4,10 +4,6 @@
 
 Khoá học dành cho học sinh THPT và THCS nhằm giúp các bạn tiếp cận với lập trình Fullstack và trí tuệ nhân tạo (AI). Ngoài việc xây dựng các dự án webapp, khoá học cung cấp những kiến thức cơ bản về Machine Learning (ML) - một lĩnh vực quan trọng trong AI, giúp các bạn hiểu và áp dụng ML với một nền tảng cơ bản của toán học cao cấp.
 
-**Class code:** `bairrb3`
-
-**Google Classroom:** [Tham gia lớp học](#)
-
 ## Mục Lục
 
 - [Hướng dẫn về làm và nộp bài học](#huong-dan-ve-lam-va-nop-bai-hoc)
