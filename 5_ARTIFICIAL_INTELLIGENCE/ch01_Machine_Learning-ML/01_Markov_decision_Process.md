@@ -1,16 +1,16 @@
-### **1. Markov Decision Process (MDP)**  
+
+# **1. Markov Decision Process (MDP)**  
 **Vai trò**: Là nền tảng toán học của RL, mô hình hóa môi trường thành các **trạng thái (states)**, **hành động (actions)**, **phần thưởng (rewards)**, và **xác suất chuyển trạng thái (transition probabilities)**.  
 - **Thành phần**:  
-  - \( S \): Tập trạng thái.  
+  - $ S $: Tập trạng thái.  
   - \( A \): Tập hành động.  
   - \( P(s'|s, a) \): Xác suất chuyển từ trạng thái \( s \) sang \( s' \) khi thực hiện hành động \( a \).  
   - \( R(s, a, s') \): Phần thưởng nhận được.  
   - \( \gamma \): Hệ số chiết khấu (discount factor).  
 - **Mục tiêu**: Tìm **policy** \( \pi(a|s) \) tối ưu để tối đa tổng phần thưởng kỳ vọng \( \mathbb{E}[\sum \gamma^t R_t] \).
 
----
 
-### **2. Dynamic Programming (DP)**  
+# **2. Dynamic Programming (DP)**  
 **Vai trò**: Giải MDP khi biết **đầy đủ mô hình môi trường** (biết \( P \) và \( R \)).  
 - **Phương pháp**:  
   - **Policy Iteration**:  
@@ -22,7 +22,7 @@
 
 ---
 
-### **3. Monte Carlo (MC) Methods**  
+# **3. Monte Carlo (MC) Methods**  
 **Vai trò**: Ước lượng giá trị \( V(s) \) hoặc \( Q(s, a) \) bằng cách **lấy mẫu toàn bộ tập kết (episode)**.  
 - **Đặc điểm**:  
   - **Model-free**: Không cần biết \( P \) và \( R \).  
@@ -34,7 +34,7 @@
 
 ---
 
-### **4. Temporal Difference (TD) Methods**  
+# **4. Temporal Difference (TD) Methods**  
 **Vai trò**: Kết hợp ý tưởng của DP và MC, cập nhật giá trị **từng bước (online)** thay vì đợi kết thúc episode.  
 - **Phương pháp**:  
   - **TD(0)**: Cập nhật \( V(s) \leftarrow V(s) + \alpha [R + \gamma V(s') - V(s)] \).  
@@ -44,7 +44,7 @@
 
 ---
 
-### **5. N-step Bootstrapping**  
+# **5. N-step Bootstrapping**  
 **Vai trò**: Cân bằng giữa TD (1-step) và MC (full-step) bằng cách sử dụng **n bước thực tế** trước khi bootstrap.  
 - **Công thức**:  
   - \( G_t^{(n)} = R_{t+1} + \gamma R_{t+2} + \dots + \gamma^{n-1} R_{t+n} + \gamma^n V(s_{t+n}) \).  
@@ -53,7 +53,7 @@
 
 ---
 
-### **6. Continuous State Spaces**  
+# **6. Continuous State Spaces**  
 **Thách thức**: Không thể dùng bảng Q-table do số chiều vô hạn.  
 - **Giải pháp**:  
   - **Function Approximation**: Xấp xỉ \( Q(s, a) \) hoặc \( V(s) \) bằng hàm tuyến tính, kernel methods, hoặc neural networks.  
@@ -62,7 +62,7 @@
 
 ---
 
-### **7. Brief Introduction to Neural Networks**  
+# **7. Brief Introduction to Neural Networks**  
 **Vai trò**: Làm function approximator cho RL trong không gian phức tạp.  
 - **Cấu trúc**:  
   - Input layer (biểu diễn state).  
@@ -72,7 +72,7 @@
 
 ---
 
-### **8. Deep SARSA**  
+# **8. Deep SARSA**  
 **Vai trò**: Kết hợp SARSA với neural networks để xử lý không gian lớn.  
 - **Cơ chế**:  
   - Dùng neural network để xấp xỉ \( Q(s, a; \theta) \).  
@@ -81,7 +81,7 @@
 
 ---
 
-### **9. Deep Q-Learning (DQN)**  
+# **9. Deep Q-Learning (DQN)**  
 **Vai trò**: Phiên bản off-policy của Deep SARSA, tối ưu hóa Q-values bằng cách tách **target network** và **experience replay**.  
 - **Cải tiến**:  
   - **Target Network**: Dùng network riêng để tính \( \max_{a'} Q(s', a'; \theta^-) \), giảm instability.  
@@ -90,7 +90,7 @@
 
 ---
 
-### **10. REINFORCE**  
+# **10. REINFORCE**  
 **Vai trò**: Policy gradient method cơ bản, tối ưu policy trực tiếp bằng cách **tăng xác suất các hành động mang lại phần thưởng cao**.  
 - **Công thức**:  
   - \( \nabla J(\theta) \approx \mathbb{E}[\sum_t \nabla_\theta \log \pi(a_t|s_t; \theta) G_t] \).  
@@ -100,22 +100,18 @@
 
 ---
 
-### **11. Advantage Actor-Critic (A2C)**  
+# **11. Advantage Actor-Critic (A2C)**  
 **Vai trò**: Kết hợp policy gradient (Actor) và value function (Critic) để giảm variance.  
 - **Cơ chế**:  
   - **Actor**: Cập nhật policy \( \pi(a|s; \theta) \).  
   - **Critic**: Ước lượng value function \( V(s; \phi) \) để tính **advantage** \( A(s, a) = Q(s, a) - V(s) \).  
 - **Công thức cập nhật**:  
-  
-- $$
-\nabla J(\theta) \approx \mathbb{E} [\nabla_\theta log \pi(a|s; \theta|) \cdot A(s,a) ] 
-$$
-
+  - \( \nabla J(\theta) \approx \mathbb{E} [\nabla_\theta \log \pi(a|s; \theta) \cdot A(s,a) ] \)  
 - **Ưu điểm**: Hiệu quả hơn REINFORCE nhờ advantage function.  
 
 ---
 
-### **Phân tích quá trình huấn luyện RL**  
+# **Phân tích quá trình huấn luyện RL**  
 1. **Khởi tạo**:  
    - Thiết kế MDP phù hợp với bài toán (xác định states, actions, rewards).  
    - Chọn phương pháp (value-based, policy-based, hoặc hybrid).  
@@ -137,7 +133,7 @@ $$
 
 ---
 
-### **So sánh phương pháp**  
+# **So sánh phương pháp**  
 | **Phương pháp**       | **Ưu điểm**                          | **Nhược điểm**                      |  
 |------------------------|---------------------------------------|--------------------------------------|  
 | **Dynamic Programming** | Đảm bảo hội tụ, chính xác            | Yêu cầu biết mô hình môi trường      |  
@@ -148,5 +144,6 @@ $$
 
 ---
 
-### **Kết luận**  
+# **Kết luận**  
 Quá trình huấn luyện RL phụ thuộc vào việc lựa chọn phương pháp phù hợp với đặc thù bài toán (không gian state/action, tính chất môi trường). Sự kết hợp giữa **lý thuyết MDP**, **function approximation** (neural networks), và **kỹ thuật giảm variance** (như Actor-Critic) là chìa khóa để giải quyết các bài toán thực tế phức tạp.
+
