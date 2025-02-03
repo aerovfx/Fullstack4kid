@@ -5,3 +5,14 @@ venv/
 .env/
 *.pyc
 __pycache__/
+# Tệp và thư mục của hệ thống IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Các tệp hệ thống của macOS
+.DS_Store
+
+# Các tệp log
+*.log
