@@ -1,2 +1,7 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
-*
+# Thư mục môi trường ảo Python
+venv/
+*.env
+.env/
+*.pyc
+__pycache__/
