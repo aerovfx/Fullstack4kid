@@ -1,6 +1,0 @@
-# Xcode
-.DS_Store
-build/
-*.xcuserstate
-*.xcworkspace
-Pods/

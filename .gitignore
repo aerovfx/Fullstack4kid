@@ -1,0 +1,37 @@
+# macOS system files
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace
+
+# Xcode User Data (tránh conflict trên Git)
+*.xcuserdatad/
+*.xcscmblueprint
+
+# Swift Package Manager
+/.swiftpm
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Tuỳ chọn: Loại bỏ logs và crash reports (nếu không cần)
+*.log
+*.crash
