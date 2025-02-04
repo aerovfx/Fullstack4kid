@@ -118,3 +118,4 @@ Giáo viên sẽ kiểm tra và cho nhận xét về các dự án nhỏ.
 - SocialFi (Mạng xã hội phi tập trung)
 - AI & Web3 (Kết hợp AI với Blockchain)
 
+pip freeze > /Users/chungdangviet/Aero-Fullstack4kid/requirements.txt
