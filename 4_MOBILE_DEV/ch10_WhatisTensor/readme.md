@@ -50,9 +50,9 @@ Giả sử bạn đang xây dựng một mô hình học máy để dự đoán 
 #### Mô hình:
 Giá nhà (`y_pred`) được tính như sau:
 
-\[
+$$
 y_{\text{pred}} = w1 \times X1 + w2 \times X2 + w3 \times X3 + b
-\]
+$$
 
 - `X1`: Diện tích nhà (ví dụ: 100m²)
 - `X2`: Số phòng ngủ (ví dụ: 3 phòng ngủ)
