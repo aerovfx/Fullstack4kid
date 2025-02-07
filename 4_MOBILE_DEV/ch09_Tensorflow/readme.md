@@ -11,3 +11,4 @@ TensorFlow là một thư viện mã nguồn mở được phát triển bởi G
 5. **Ứng dụng y tế**: TensorFlow được sử dụng trong các ứng dụng y tế như chẩn đoán hình ảnh y tế và phân tích gen.
 
 TensorFlow là một công cụ mạnh mẽ và linh hoạt, giúp các nhà phát triển và nhà nghiên cứu xây dựng các mô hình học máy hiệu quả và triển khai chúng vào các ứng dụng thực tế.
+
