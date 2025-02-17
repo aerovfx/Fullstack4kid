@@ -79,7 +79,3 @@ Trí tuệ nhân tạo đang ngày càng trở nên quan trọng trong khoa họ
 
 ---
 
-**🚀 Tối ưu hoá:**
-- Gộp module về Deep Learning, Machine Learning hợp lý hơn.
-- Bổ sung MLOps, AI Ethics giúp triển khai AI bài bản.
-- Cập nhật xu hướng AI hiện đại (LLMs, Diffusion, SAM).
